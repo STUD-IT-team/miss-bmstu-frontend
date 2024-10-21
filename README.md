@@ -1,6 +1,6 @@
 ![GithubCI](https://github.com/STUD-IT-team/bmstu-stud-web-frontend/actions/workflows/deploy.yml/badge.svg)
 
-# Фронтенд сайта Студенческого Совета МГТУ им. Н.Э. Баумана
+# Фронтенд сайта "Мисс Очарование МГТУ 2024"
 Разворачивается в _Docker_ с раздачей через _Nginx_ с авто-деплоем на _Github Actions_ и авто-получением сертификатов _Letsencript_
 
 ## Развертка для разработки
