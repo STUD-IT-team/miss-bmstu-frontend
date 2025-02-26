@@ -52,45 +52,75 @@
     .group
       position absolute
       inset 0
-      top calc(var(--repeat-number) * 2000px)
-      > *
+      top calc(var(--repeat-number) * 3400px)
+      .left
+      .right
+      .left > *
+      .right > *
         position absolute
         transition all 0.5s ease-out-slow
-      .spiral
-      .sphere-left
+      .left
+      .right
+        inset 0
+        > .rotating
+          transform rotate(calc(var(--scroll) * 0.05deg))
+      .left
         transform translateY(calc(var(--scroll) * -0.5px))
-      .ring
-      .sphere-right
+      .right
         transform translateY(calc(var(--scroll) * -1px))
 
-      .spiral
-        left -210px
-        top 500px
-        width 400px
-        @media ({mobile})
-          left -120px
-          width 200px
-      .sphere-left
-        left -80px
-        top 2000px
-        width 220px
-        @media ({mobile})
-          left -60px
-          width 120px
-      .sphere-right
-        right -80px
-        top 300px
-        width 220px
-        @media ({mobile})
+      .left
+        *:nth-child(1)
+          left -180px
+          top 500px
+          width 330px
+          @media ({mobile})
+            left -120px
+            width 180px
+        *:nth-child(2)
+          left -80px
+          top 2000px
+          width 220px
+          @media ({mobile})
+            left -70px
+            width 120px
+        *:nth-child(3)
+          left -80px
+          top 2800px
+          width 220px
+          @media ({mobile})
+            left -70px
+            width 120px
+
+      .right
+        *:nth-child(1)
+          right -40px
+          top 300px
+          width 180px
+          @media ({mobile})
+            right -60px
+            width 120px
+        *:nth-child(2)
+          right -50px
+          top 1500px
+          width 220px
+          @media ({mobile})
+            right -70px
+            width 140px
+        *:nth-child(3)
+          right 00px
+          top 2300px
+          width 150px
+          @media ({mobile})
+            right -70px
+            width 140px
+        *:nth-child(4)
           right -60px
-          width 120px
-      .ring
-        right -100px
-        top 1500px
-        width 220px
-        @media ({mobile})
-          right -70px
-          width 140px
+          top 3100px
+          width 150px
+          @media ({mobile})
+            right -80px
+            width 140px
 </style>
 
 <template>
@@ -115,10 +145,17 @@
 
     <section class="decoration">
       <div v-for="i in 3" :style="{'--repeat-number': i - 1}" class="group">
-        <img class="spiral" src="/res/images/miss-decorations/side-spiral.png" alt="">
-        <img class="sphere-left" src="/res/images/miss-decorations/side-sphere.png" alt="">
-        <img class="sphere-right" src="/res/images/miss-decorations/side-sphere.png" alt="">
-        <img class="ring" src="/res/images/miss-decorations/side-ring.png" alt="">
+        <div class="left">
+          <img src="/res/images/miss-decorations/bearing.png" class="rotating" alt="">
+          <img src="/res/images/miss-decorations/gear-1.png" class="rotating" alt="">
+          <img src="/res/images/miss-decorations/shard-3.png" class="rotating" alt="">
+        </div>
+        <div class="right">
+          <img src="/res/images/miss-decorations/shard-1.png" class="rotating" alt="">
+          <img src="/res/images/miss-decorations/gear-2.png" class="rotating" alt="">
+          <img src="/res/images/miss-decorations/shard-2.png" class="rotating" alt="">
+          <img src="/res/images/miss-decorations/gear-2.png" class="rotating" alt="">
+        </div>
       </div>
     </section>
   </div>

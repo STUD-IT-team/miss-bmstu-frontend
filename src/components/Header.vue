@@ -26,7 +26,7 @@
         letter-spacing 0
     .logo
       width 40vw
-      max-width 250px
+      max-width 350px
   .navbar-container
     font-medium()
     centered-margin()
