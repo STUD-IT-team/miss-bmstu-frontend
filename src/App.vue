@@ -34,7 +34,6 @@
       </transition>
     </router-view>
   </div>
-<!--  <NavBar v-if="!/^\/miss/.test($route.path)"></NavBar>-->
 
   <Popups ref="popups"></Popups>
   <Modals ref="modals" class="root-modals"></Modals>
@@ -118,11 +117,10 @@ import {getCurrentInstance} from "vue";
 import {Modals, Popups} from "@sergtyapkin/modals-popups";
 import CircleLoading from "~/components/CircleLoading.vue";
 import API from "~/utils/API";
-import NavBar from "~/components/NavBar.vue";
 
 
 export default {
-  components: {NavBar, CircleLoading, Modals, Popups},
+  components: {CircleLoading, Modals, Popups},
 
   data() {
     return {

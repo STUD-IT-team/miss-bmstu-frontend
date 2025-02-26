@@ -1,14 +1,14 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 import Page404 from "./views/Page404.vue";
-import PageMainStart from "~/views/Miss/PageMainStart.vue";
-import PageMainVote from "~/views/Miss/PageMainVote.vue";
-import PageMainFinal from "~/views/Miss/PageMainFinal.vue";
-import PageMain from "~/views/Miss/PageMain.vue";
-import PageAbout from "~/views/Miss/PageAbout.vue";
-import PageContacts from "~/views/Miss/PageContacts.vue";
-import pagePartners from "~/views/Miss/PagePartners.vue";
-import PageMissProfile from "~/views/Miss/PageMissProfile.vue";
+import PageMainStart from "~/views/PageMainStart.vue";
+import PageMainVote from "~/views/PageMainVote.vue";
+import PageMainFinal from "~/views/PageMainFinal.vue";
+import PageMain from "~/views/PageMain.vue";
+import PageAbout from "~/views/PageAbout.vue";
+import PageContacts from "~/views/PageContacts.vue";
+import pagePartners from "~/views/PagePartners.vue";
+import PageMissProfile from "~/views/PageMissProfile.vue";
 
 export default function createVueRouter(Store) {
     const routes = [

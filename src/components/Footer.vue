@@ -1,89 +1,94 @@
-<style lang="stylus" scoped>
+<style scoped lang="stylus">
 @require '../styles/constants.styl'
-@require '../styles/fonts.styl'
-@require '../styles/utils.styl'
 @require '../styles/buttons.styl'
+@require '../styles/fonts.styl'
 @require '../styles/components.styl'
 
 .root-footer
-  width 100%
   margin-top auto
-  padding-top 300px
+  text-align center
+  .footer-top
+    border-top 1px solid colorDarkBlocksBorders
+    padding 25px 0 0 0
+    text-align center
+    .footer-logos
+      margin-bottom 15px
+      .footer-logo-left
+      .footer-logo-center
+      .footer-logo-right
+        hover-effect()
+      .footer-logo-left
+        height 100px
+        margin-left 45px
+        @media ({mobile})
+          height 50px
+          margin-left 15px
+      .footer-logo-center
+        height 100px
+        margin 0 10px 0 15px
+        @media ({mobile})
+          height 50px
+      .footer-logo-right
+        height 90px
+        @media ({mobile})
+          height 40px
 
-  .main-part
-    display flex
-    justify-content space-between
-    max-width 1180px
-    padding 0 20px
-    margin 0 auto
-
-    .contacts
-      .header
-        font-large-xx()
-        margin-bottom 40px
-
-      .address
-        display block
-        margin-bottom 27px
-        font-medium()
+    .footer-title
+      font-large()
+      font-normal()
+      color colorDarkBgText
+      margin-bottom 15px
+    .partners-container
+      width 100%
+      display flex
+      flex-wrap wrap
+      justify-content center
+      gap 10px 5px
+      margin 0 auto
+      padding 0 120px 25px
+      border-bottom 1px solid colorLinesBorders
+      @media ({mobile})
+        padding 0 40px
+      .partner
+        object-fit: contain
+        flex 1
+        max-width 150px
+        length auto
+        padding 15px
         hover-effect()
 
-      .phone
-        display block
-        font-medium()
-        margin-bottom 47px
-        hover-effect()
-
-      .messengers
-        img
-          height 67px
-          width 67px
-          margin-right 30px
-          hover-effect()
-
-    .picture
-      img
-        height 403px
-
-  .bottom-part
-    display flex
-    justify-content center
-    align-items center
-    gap 10px
-    margin-top 40px
-    border-top 1px solid colorBorder
-    padding 20px
-
-    .footer-label
-      font-medium()
-
-    img
-      height 22px
+  .footer-bottom-title
+    font-medium()
+    @media ({mobile})
+      font-small()
+    padding 10px 0
 </style>
 
 <template>
   <footer class="root-footer">
-    <div class="main-part">
-      <div class="contacts">
-        <header class="header">Контакты</header>
-        <a class="address" href="https://yandex.ru/maps/-/CDRYrHYz">г.Москва, 2-я Бауманская улица, 5с4, южное крыло, ауд. 339ю</a>
-        <a class="phone" href="tel:+74952636855">+7 (495) 263-68-55</a>
-        <div class="messengers">
-          <a href="https://vk.com/studsovet_bmstu"><img src="/res/icons/vk.svg" alt="vk"></a>
-          <a href="https://t.me/studsovet_bmstu"><img src="/res/icons/telegram.svg" alt="tg"></a>
-        </div>
+    <div class="footer-top">
+      <div class="footer-logos">
+        <a href="https://bmstu.ru" target="_blank"><img class="footer-logo-left" src="/res/icons/bmstu-logo.svg" alt="bmstu-logo"/></a>
+        <a href="https://vk.com/studsovet_bmstu" target="_blank"><img class="footer-logo-center" src="/res/icons/stud-logo.svg" alt="stud-logo"/></a>
+        <a href="https://vk.com/miss_bmstu" target="_blank"><img class="footer-logo-right" src="/res/icons/crown-logo.svg" alt="crown-logo"/></a>
       </div>
-      <div class="picture">
-        <img src="/res/icons/crane.svg" alt="">
-      </div>
+      <div class="footer-title" v-if="partnersList.length">ПАРТНЁРЫ КОНКУРСА</div>
+      <router-link :to="{name: 'missPartners'}" class="partners-container" v-if="partnersList.length">
+        <img v-for="partner in partnersList" class="partner" :src="partner.logo" alt="partner-logo"/>
+      </router-link>
     </div>
-    <div class="bottom-part">
-      <span class="footer-label">Студенческий совет МГТУ&nbsp;им.&nbsp;Н.Э.&nbsp;Баумана, 2024 г.</span>
-      <img src="/res/icons/stud-logo.svg" alt="logo">
-    </div>
+    <div class="footer-bottom-title">Сайт разработан Студенческим советом МГТУ&nbsp;им.&nbsp;Н.Э.&nbsp;Баумана, 2024&nbsp;г.</div>
   </footer>
 </template>
 
 <script>
-export default {}
+import {partnersList} from "~/utils/constantsMiss";
+
+export default {
+  data() {
+    return {
+      partnersList,
+    }
+  }
+}
 </script>
