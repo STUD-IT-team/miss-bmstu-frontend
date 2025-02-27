@@ -28,11 +28,7 @@
 
 <template>
   <div class="wrapper">
-    <router-view v-slot="{ Component }">
-      <transition name="scale-in">
-        <component :is="Component"/>
-      </transition>
-    </router-view>
+    <PageMain></PageMain>
   </div>
 
   <Popups ref="popups"></Popups>
@@ -117,10 +113,11 @@ import {getCurrentInstance} from "vue";
 import {Modals, Popups} from "@sergtyapkin/modals-popups";
 import CircleLoading from "~/components/CircleLoading.vue";
 import API from "~/utils/API";
+import PageMain from "~/views/PageMain.vue";
 
 
 export default {
-  components: {CircleLoading, Modals, Popups},
+  components: {PageMain, CircleLoading, Modals, Popups},
 
   data() {
     return {

@@ -57,6 +57,7 @@
     .sparkle
       position absolute
       animation sparkle-flick 3s cubic-bezier(0.06, 0.42, 0.78, 1.34) infinite
+      z-index -1
       @keyframes sparkle-flick
         0%
           opacity 65%

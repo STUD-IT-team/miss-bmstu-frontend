@@ -4,7 +4,6 @@ import Page404 from "./views/Page404.vue";
 import PageMainStart from "~/views/PageMainStart.vue";
 import PageMainVote from "~/views/PageMainVote.vue";
 import PageMainFinal from "~/views/PageMainFinal.vue";
-import PageMain from "~/views/PageMain.vue";
 import PageAbout from "~/views/PageAbout.vue";
 import PageContacts from "~/views/PageContacts.vue";
 import pagePartners from "~/views/PagePartners.vue";
