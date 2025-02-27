@@ -250,7 +250,7 @@ export default {
       const foundMissIdx = missList.findIndex(miss => miss.id === this.missId);
       if (foundMissIdx === -1) {
         // this.$popups.error('Ошибка', `Участница с номером ${this.missId} не найдена`);
-        // this.$router.push({name: 'miss'});
+        // this.$router.push({name: 'default'});
         return;
       }
       this.miss = Object.assign({idx: foundMissIdx}, missList[foundMissIdx]);

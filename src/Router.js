@@ -12,18 +12,14 @@ import PageMissProfile from "~/views/PageMissProfile.vue";
 
 export default function createVueRouter(Store) {
     const routes = [
-        {path: '/', name: 'default', redirect: '/miss'},
-
-        {path: '/miss', component: PageMain, meta: {}, children: [
-            {path: '/miss', name: 'miss', component: PageMainFinal, meta: {}},
-            {path: '/miss/start', name: 'missMainStart', component: PageMainStart, meta: {}},
-            {path: '/miss/vote_test_page_ab85cf1f-1f58-4c13-9315-7db30f6207df', name: 'missMainVote', component: PageMainVote, meta: {}},
-            {path: '/miss/final', name: 'missMainFinal', component: PageMainFinal, meta: {}},
-            {path: '/miss/partners', name: 'missPartners', component: pagePartners, meta: {}},
-            {path: '/miss/about', name: 'missAbout', component: PageAbout, meta: {}},
-            {path: '/miss/contacts', name: 'missContacts', component: PageContacts, meta: {}},
-            {path: '/miss/profile/:missId', name: 'missProfile', component: PageMissProfile, meta: {}},
-        ]},
+        {path: '/', name: 'default', component: PageMainFinal, meta: {}},
+        {path: '/start', name: 'missMainStart', component: PageMainStart, meta: {}},
+        {path: '/vote_test_page_ab85cf1f-1f58-4c13-9315-7db30f6207df', name: 'missMainVote', component: PageMainVote, meta: {}},
+        {path: '/final', name: 'missMainFinal', component: PageMainFinal, meta: {}},
+        {path: '/partners', name: 'missPartners', component: pagePartners, meta: {}},
+        {path: '/about', name: 'missAbout', component: PageAbout, meta: {}},
+        {path: '/contacts', name: 'missContacts', component: PageContacts, meta: {}},
+        {path: '/profile/:missId', name: 'missProfile', component: PageMissProfile, meta: {}},
 
         {path: '/:pathMatch(.*)*', name: 'page404', component: Page404},
     ];

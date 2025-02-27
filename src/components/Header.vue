@@ -93,10 +93,10 @@
 <template>
   <header class="root-miss-header">
     <header class="title">
-      <img class="logo" src="/res/images/miss/headerLogo.svg" alt="logo">
+      <router-link :to="{name: 'default'}"><img class="logo" src="/res/images/miss/headerLogo.svg" alt="logo"></router-link>
     </header>
     <nav class="navbar-container">
-      <router-link :to="{name: 'miss'}" style="--animation-index: 0" class="button">ГЛАВНАЯ</router-link>
+      <router-link :to="{name: 'default'}" style="--animation-index: 0" class="button">ГЛАВНАЯ</router-link>
       <router-link :to="{name: 'missAbout'}" style="--animation-index: 1" class="button">О КОНКУРСЕ</router-link>
       <router-link v-if="partnersList.length" :to="{name: 'missPartners'}" style="--animation-index: 2" class="button">ПАРТНЁРЫ</router-link>
       <router-link :to="{name: 'missContacts'}" style="--animation-index: 3" class="button">КОНТАКТЫ</router-link>
