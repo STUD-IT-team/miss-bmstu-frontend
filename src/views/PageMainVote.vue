@@ -32,19 +32,17 @@
     <header class="header">ФИНАЛИСТКИ 2024</header>
     <section class="main-text">
       <p>
-        Для&nbsp;того, чтобы отдать голос за&nbsp;фаворитку, необходимо <mark>отправить SMS</mark> в&nbsp;формате:<br>
-        «СТУД» и&nbsp;номер участницы на&nbsp;короткий номер {{ phoneNumberToVoting }}.
+        Чтобы поддержать участницу, <mark>отправь SMS</mark> на номер {{ phoneNumberToVoting }} в&nbsp;формате: «СТУД [номер участницы]».
       </p>
       <p>
-        Например, для&nbsp;голосования за&nbsp;финалистку №1, нужно отправить SMS на&nbsp;номер <mark>{{ phoneNumberToVoting }}</mark><br>
-        с&nbsp;кодом: <mark>Студ 1</mark> (пробел обязателен, регистр букв значения не&nbsp;имеет).
+        Пример, если голосуешь за&nbsp;конкурсантку №1, нужно отправить SMS на&nbsp;номер <mark>{{ phoneNumberToVoting }}</mark><br>
+        с&nbsp;кодом: <mark>СТУД 1</mark> (пробел обязателен, регистр букв значения не&nbsp;имеет).
       </p>
-      <p>Только для&nbsp;операторов России: Билайн, Мегафон, Tele2, МТС, Тинькофф, Мотив.</p>
+      <p>Голосование доступно для абонентов: Билайн, Мегафон, Tele2, МТС, Тинькофф, Мотив.</p>
       <p>
-        Стоимость отправки <mark>SMS</mark> - 10&nbsp;рублей.<br>
-        (SMS для&nbsp;подтверждения Оператору - бесплатно)
+        Стоимость  <mark>SMS</mark> - 11&nbsp;рублей. Подтверждающее сообщение оператору — бесплатно.
       </p>
-      <p>Организация голосования: <a href="https://mvote.ru" target="_blank">Mvote.ru</a></p>
+      <p>Организатор голосования: <a href="https://mvote.ru" target="_blank">Mvote.ru</a></p>
     </section>
     <MissCardsContainer show-votes></MissCardsContainer>
   </div>

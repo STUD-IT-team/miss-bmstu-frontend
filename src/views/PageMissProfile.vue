@@ -165,14 +165,14 @@
       </div>
       <div class="right-column">
         <section class="age-height-group-container">
-          <div class="info-block">
-            <div class="info-title">Возраст</div>
-            <span class="info">{{ miss.age }}</span>
-          </div>
-          <div class="info-block">
-            <div class="info-title">Рост</div>
-            <span class="info">{{ miss.height }} см</span>
-          </div>
+<!--          <div class="info-block">-->
+<!--            <div class="info-title">Возраст</div>-->
+<!--            <span class="info">{{ miss.age }}</span>-->
+<!--          </div>-->
+<!--          <div class="info-block">-->
+<!--            <div class="info-title">Рост</div>-->
+<!--            <span class="info">{{ miss.height }} см</span>-->
+<!--          </div>-->
           <div class="info-block">
             <div class="info-title">Группа</div>
             <span class="info">{{ miss.group }}</span>
@@ -182,10 +182,10 @@
         <section class="questions-answers-container">
           <div v-for="(QAtext, idx) in miss.QAtexts" class="answer-container">
             <input type="checkbox" :id="`question-${idx}`" :checked="idx === 0"/>
-            <label class="question" :for="`question-${idx}`">
-              <span v-html="QAtext.question"></span>
-              <img class="arrow" src="/res/icons/arrow-right-small.svg" alt="">
-            </label>
+<!--            <label class="question" :for="`question-${idx}`">-->
+<!--              <span v-html="QAtext.question"></span>-->
+<!--              <img class="arrow" src="/res/icons/arrow-right-small.svg" alt="">-->
+<!--            </label>-->
             <div class="answer" v-html="QAtext.answer"></div>
           </div>
         </section>

@@ -11,10 +11,10 @@ import PageMissProfile from "~/views/PageMissProfile.vue";
 
 export default function createVueRouter(Store) {
     const routes = [
-        {path: '/', name: 'default', component: PageMainFinal, meta: {}},
+        {path: '/', name: 'default', component: PageMainStart, meta: {}},
         {path: '/start', name: 'missMainStart', component: PageMainStart, meta: {}},
         {path: '/vote_test_page_ab85cf1f-1f58-4c13-9315-7db30f6207df', name: 'missMainVote', component: PageMainVote, meta: {}},
-        {path: '/final', name: 'missMainFinal', component: PageMainFinal, meta: {}},
+        {path: '/final_test_page_ab85cf1f-1f58-4c13-9315-7db30f6207df', name: 'missMainFinal', component: PageMainFinal, meta: {}},
         {path: '/partners', name: 'missPartners', component: pagePartners, meta: {}},
         {path: '/about', name: 'missAbout', component: PageAbout, meta: {}},
         {path: '/contacts', name: 'missContacts', component: PageContacts, meta: {}},

@@ -41,9 +41,9 @@
     <header class="header">КОНТАКТЫ</header>
     <section class="contacts">
       <label>Адрес</label>
-      <a class="contact" href="https://yandex.ru/maps/-/CDRYrHYz" target="_blank">г. Москва, 2-я Бауманская улица, 5с4, южное крыло, ауд. 339ю</a>
+      <a class="contact" href="https://yandex.ru/maps/-/CHF-Z-mO" target="_blank">Конгресс-центр, ауд. 425к (г. Москва, Бауманская улица, 57)</a>
       <label>Телефон</label>
-      <a class="contact" href="tel:+74952636855" target="_blank">+7 (495) 263-68-55</a>
+      <a class="contact" href="tel:+79022741631" target="_blank">+7 (902) 274-16-31</a>
       <label>Группа VK</label>
       <a class="contact" href="https://vk.com/miss_bmstu" target="_blank">vk.com/miss_bmstu</a>
       <label>Канал TG</label>
@@ -66,18 +66,18 @@
                      :image-webp="Webp3"
                      :image-jpg="Jpg3"
                      name="Мария Ильиных"
-                     phone=""
-                     mail=""
-                     telegram=""
+                     phone="+7 (902) 274-160-31 "
+                     mail="mariailinyh612@gmail.com "
+                     telegram="maria_ilinyh"
                      title="Главный организатор конкурса"
       ></OrganizerCard>
       <OrganizerCard class="organizer-card"
                      :image-webp="Webp1"
                      :image-jpg="Jpg1"
                      name="Александра Манжина"
-                     phone=""
-                     mail=""
-                     telegram=""
+                     phone="+7 (916) 244-81-87"
+                     mail="sashamanzhina@mail.ru"
+                     telegram="alexsandramanzhina"
                      title="Ответственный за работу с партнерами"
       ></OrganizerCard>
     </section>

@@ -79,7 +79,7 @@
         .name
           font-medium()
     .nomination-container
-      trans(1s)
+      trans(.6s)
       .nomination-header
         font-large-x()
         text-align center
@@ -98,23 +98,23 @@
   <div class="root-page-about">
     <header class="header">О КОНКУРСЕ</header>
     <section class="section-text">
-      <p>Студенческий конкурс <mark>«МиСС Очарование»</mark> — один из&nbsp;самых ярких и&nbsp;масштабных проектов МГТУ&nbsp;им.&nbsp;Н.Э.&nbsp;Баумана. Данный конкурс позволяет участницам выйти из&nbsp;зоны комфорта и&nbsp;раскрыть свои творческие способности.</p>
-      <p>«Мисс Очарование» — это&nbsp;возможность для&nbsp;бауманских студенток получить <mark>новые эмоции</mark> и&nbsp;сценический опыт. Проект позволяет нам показать свой уникальный взгляд на&nbsp;технический вуз, а&nbsp;также начать бауманскую весну и&nbsp;укрепить сообщества факультетов, поддерживающих участниц.</p>
-      <p>Конкурсу <mark>более 20&nbsp;лет</mark>, но&nbsp;он&nbsp;не&nbsp;теряет свою актуальность и&nbsp;каждый год собирает полный зал, который бурными овациями встречает каждую финалистку.</p>
-      <p>Подготовка к&nbsp;конкурсу длится почти <mark>2&nbsp;месяца</mark>, и&nbsp;состоит из&nbsp;репетиций творческих номеров, постановок дефиле, съёмок, интервью и&nbsp;фотосессий. Такой плотный график и&nbsp;подготовка позволяют каждой участнице конкурса <mark>раскрыться на&nbsp;максимум</mark> во&nbsp;время финала.</p>
-      <p>Финал конкурса состоит из&nbsp;следующих этапов:</p>
+      <p><mark>«МиСС Очарование»</mark> — это&nbsp;мероприятие для&nbsp;студенток, которое позволяет демонстрировать свои способности и&nbsp;таланты!</p>
+      <p>В этом году конкурсу <mark>исполняется 23&nbsp;года</mark>, и&nbsp;он по-прежнему актуален и&nbsp;любим студентами. Его&nbsp;цель — реализация потенциала студентов, развитие их&nbsp;талантов, воспитание патриотичной и&nbsp;социально ответственной личности, а&nbsp;также вовлечение студентов в&nbsp;общественную жизнь, популяризация научной деятельности и&nbsp;профессии инженера в&nbsp;Университете.</p>
+      <p>Подготовка к&nbsp;конкурсу длится почти <mark>2&nbsp;месяца</mark> и&nbsp;включает репетиции творческих номеров, дефиле и&nbsp;театральной постановки, съёмки, интервью и&nbsp;фотосессии. Такая интенсивная подготовка позволяет каждой участнице <mark>раскрыть себя</mark> на&nbsp;финале, где&nbsp;они продемонстрируют свои таланты перед зрителями на&nbsp;Бауманской сцене.</p>
+      <p><mark>Этапы финала конкурса:</mark></p>
       <ul class="listing">
-        <li>Видеовизитка;</li>
-        <li>Общий танец;</li>
-        <li>Дефиле участниц;</li>
-        <li>Творческий номер;</li>
-        <li>Конкурс «Лучшая группа поддержки».</li>
+        <li>Видеовизитка</li>
+        <li>Общий танец</li>
+        <li>Дефиле участниц</li>
+        <li>Творческий номер</li>
+        <li>Общая театральная постановка</li>
+        <li>Конкурс «Лучшая группа поддержки»</li>
       </ul>
       <p>После проведения всех этапов <mark>подводятся итоги</mark> и, конечно же, <mark>проходит награждение</mark> всех финалисток.</p>
-      <header class="header-colored">КАК ЭТО БЫЛО</header>
+<!--      <header class="header-colored">КАК ЭТО БЫЛО</header>-->
 <!--      <img class="image-full-size" src="/res/images/missAwarding.png" alt="photo from awarding">-->
 <!--      <iframe class="image-full-size" src="https://vk.com/video_ext.php?oid=-26724538&id=456239353&hd=3&autoplay=1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>-->
-      <ViewPortWatcher on-ref="rutubeIframePlayer" v-model="nominationsVisible[0]" :bottom-offset="100" :top-offset="-200"><iframe ref="rutubeIframePlayer" class="image-full-size" :class="{'hidden': !nominationsVisible[0]}" src="https://rutube.ru/play/embed/1ec8f8e6eacac206b62c115630e33066" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></ViewPortWatcher>
+<!--      <ViewPortWatcher on-ref="rutubeIframePlayer" v-model="nominationsVisible[0]" :bottom-offset="100" :top-offset="-200"><iframe ref="rutubeIframePlayer" class="image-full-size" :class="{'hidden': !nominationsVisible[0]}" src="https://rutube.ru/play/embed/1ec8f8e6eacac206b62c115630e33066" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></ViewPortWatcher>-->
     </section>
 
 <!--    <header class="header">ЖЮРИ</header>-->
@@ -175,7 +175,7 @@
       </div></ViewPortWatcher>
 
       <ViewPortWatcher on-ref="nomination-6" v-model="nominationsVisible[6]" :bottom-offset="100" :top-offset="-200"><div ref="nomination-6" class="nomination-container" :class="{'hidden': !nominationsVisible[6]}">
-        <header class="nomination-header">НОМИНАЦИЯ ОТ&nbsp;ПАРТНЁРОВ КОНКУРСА</header>
+        <header class="nomination-header">НОМИНАЦИИ ОТ&nbsp;ПАРТНЁРОВ КОНКУРСА</header>
         <p>Партнёрам мероприятия по&nbsp;согласованию с&nbsp;оргкомитетом предоставляется право учредить собственную номинацию и&nbsp;наградить любую понравившуюся участницу.</p>
       </div></ViewPortWatcher>
     </section>
@@ -200,32 +200,32 @@ export default {
     // this.juryScrollingTimer = setInterval(() => {
     //   this.$refs.juryScrollerContainer.scrollBy({left: 1});
     // }, 50);
-    window.addEventListener('message', this.listenWindowMessages);
+    // window.addEventListener('message', this.listenWindowMessages);
   },
   unmounted() {
-    clearInterval(this.juryScrollingTimer);
-    window.removeEventListener('message', this.listenWindowMessages);
+    // clearInterval(this.juryScrollingTimer);
+    // window.removeEventListener('message', this.listenWindowMessages);
   },
 
   methods: {
-    listenWindowMessages(event) {
-      const message = JSON.parse(event.data);
-      console.log(message.type); // some type
-      switch (message.type) {
-        case 'player:changeState':
-          console.log("PLAYER STATE CHANGED:", message.data.state); // текущее состояние плеера
-          break;
-        case 'player:ready':
-          this.playVideo();
-          break;
-      }
-    },
-    playVideo() {
-      this.$refs.rutubeIframePlayer.contentWindow.postMessage(JSON.stringify({
-        type: 'player:play',
-        data: {}
-      }), '*');
-    }
+    // listenWindowMessages(event) {
+    //   const message = JSON.parse(event.data);
+    //   console.log(message.type); // some type
+    //   switch (message.type) {
+    //     case 'player:changeState':
+    //       console.log("PLAYER STATE CHANGED:", message.data.state); // текущее состояние плеера
+    //       break;
+    //     case 'player:ready':
+    //       this.playVideo();
+    //       break;
+    //   }
+    // },
+    // playVideo() {
+    //   this.$refs.rutubeIframePlayer.contentWindow.postMessage(JSON.stringify({
+    //     type: 'player:play',
+    //     data: {}
+    //   }), '*');
+    // }
   }
 }
 </script>

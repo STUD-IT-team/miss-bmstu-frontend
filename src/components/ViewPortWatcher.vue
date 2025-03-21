@@ -43,10 +43,11 @@ export default {
     }
   },
   mounted() {
-    window.addEventListener('scroll', this.handleScroll);
+    document.body.addEventListener('scroll', this.handleScroll);
+    this.handleScroll();
   },
   unmounted() {
-    window.removeEventListener('scroll', this.handleScroll);
+    document.body.removeEventListener('scroll', this.handleScroll);
   }
 };
 </script>
