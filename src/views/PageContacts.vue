@@ -54,30 +54,30 @@
 
     <section class="organizers-container">
       <OrganizerCard class="organizer-card"
-                     :image-webp="ImagePavelOrlovWebp"
-                     :image-jpg="ImagePavelOrlovJpg"
-                     name="Павел Орлов"
-                     phone="+7 (915) 720-89-11"
-                     mail="orlov@bmstu.ru"
-                     telegram="Pavel_BMSTU"
+                     :image-webp="Webp2"
+                     :image-jpg="Jpg2"
+                     name="Тимофей Суслов"
+                     phone=""
+                     mail=""
+                     telegram=""
                      title="Председатель Студенческого Совета"
       ></OrganizerCard>
       <OrganizerCard class="organizer-card"
-                     :image-webp="ImageTamaraSergeevaWebp"
-                     :image-jpg="ImageTamaraSergeevaJpg"
-                     name="Тамара Сергеева"
-                     phone="+7 (916) 881-04-73"
-                     mail="sergeevatb@student.bmstu.ru"
-                     telegram="Wiltyan_li"
+                     :image-webp="Webp3"
+                     :image-jpg="Jpg3"
+                     name="Мария Ильиных"
+                     phone=""
+                     mail=""
+                     telegram=""
                      title="Главный организатор конкурса"
       ></OrganizerCard>
       <OrganizerCard class="organizer-card"
-                     :image-webp="ImageGeorgiyAvdeevWebp"
-                     :image-jpg="ImageGeorgiyAvdeevJpg"
-                     name="Георгий Авдеев"
-                     phone="+7 (985) 436-58-91"
-                     mail="geor.avdeeff@yandex.ru"
-                     telegram="GeorgeAvdeev"
+                     :image-webp="Webp1"
+                     :image-jpg="Jpg1"
+                     name="Александра Манжина"
+                     phone=""
+                     mail=""
+                     telegram=""
                      title="Ответственный за работу с партнерами"
       ></OrganizerCard>
     </section>
@@ -86,30 +86,30 @@
 
 <script>
 import OrganizerCard from "~/components/OrganizerCard.vue";
-import ImagePavelOrlovWebp200 from '#~/images/miss-organizers/webp-266/PavelOrlov.webp';
-import ImageTamaraSergeevaWebp200 from '#~/images/miss-organizers/webp-266/TamaraSergeeva.webp';
-import ImageGeorgiyAvdeevWebp200 from '#~/images/miss-organizers/webp-266/GeorgiyAvdeev.webp';
-import ImagePavelOrlovJpg200 from '#~/images/miss-organizers/jpg-266/PavelOrlov.jpg';
-import ImageTamaraSergeevaJpg200 from '#~/images/miss-organizers/jpg-266/TamaraSergeeva.jpg';
-import ImageGeorgiyAvdeevJpg200 from '#~/images/miss-organizers/jpg-266/GeorgiyAvdeev.jpg';
-import ImagePavelOrlovWebp400 from '#~/images/miss-organizers/webp-400/PavelOrlov.webp';
-import ImageTamaraSergeevaWebp400 from '#~/images/miss-organizers/webp-400/TamaraSergeeva.webp';
-import ImageGeorgiyAvdeevWebp400 from '#~/images/miss-organizers/webp-400/GeorgiyAvdeev.webp';
-import ImagePavelOrlovJpg400 from '#~/images/miss-organizers/jpg-400/PavelOrlov.jpg';
-import ImageTamaraSergeevaJpg400 from '#~/images/miss-organizers/jpg-400/TamaraSergeeva.jpg';
-import ImageGeorgiyAvdeevJpg400 from '#~/images/miss-organizers/jpg-400/GeorgiyAvdeev.jpg';
+import Webp200_1 from '#~/images/miss-organizers/webp-200/1.webp';
+import Webp200_2 from '#~/images/miss-organizers/webp-200/2.webp';
+import Webp200_3 from '#~/images/miss-organizers/webp-200/3.webp';
+import Jpg200_1 from '#~/images/miss-organizers/jpg-200/1.jpg';
+import Jpg200_2 from '#~/images/miss-organizers/jpg-200/2.jpg';
+import Jpg200_3 from '#~/images/miss-organizers/jpg-200/3.jpg';
+import Webp400_1 from '#~/images/miss-organizers/webp-400/1.webp';
+import Webp400_2 from '#~/images/miss-organizers/webp-400/2.webp';
+import Webp400_3 from '#~/images/miss-organizers/webp-400/3.webp';
+import Jpg400_1 from '#~/images/miss-organizers/jpg-400/1.jpg';
+import Jpg400_2 from '#~/images/miss-organizers/jpg-400/2.jpg';
+import Jpg400_3 from '#~/images/miss-organizers/jpg-400/3.jpg';
 
 export default {
   components: {OrganizerCard},
 
   data() {
     return {
-      ImagePavelOrlovWebp: `${ImagePavelOrlovWebp200} 200w, ${ImagePavelOrlovWebp400} 400w`,
-      ImageTamaraSergeevaWebp: `${ImageTamaraSergeevaWebp200} 200w, ${ImageTamaraSergeevaWebp400} 400w`,
-      ImageGeorgiyAvdeevWebp: `${ImageGeorgiyAvdeevWebp200} 200w, ${ImageGeorgiyAvdeevWebp400} 400w`,
-      ImagePavelOrlovJpg: `${ImagePavelOrlovJpg200} 200w, ${ImagePavelOrlovJpg400} 400w`,
-      ImageTamaraSergeevaJpg: `${ImageTamaraSergeevaJpg200} 200w, ${ImageTamaraSergeevaJpg400} 400w`,
-      ImageGeorgiyAvdeevJpg: `${ImageGeorgiyAvdeevJpg200} 200w, ${ImageGeorgiyAvdeevJpg400} 400w`,
+      Webp1: `${Webp200_1} 200w, ${Webp400_1} 400w`,
+      Webp2: `${Webp200_2} 200w, ${Webp400_2} 400w`,
+      Webp3: `${Webp200_3} 200w, ${Webp400_3} 400w`,
+      Jpg1: `${Jpg200_1} 200w, ${Jpg400_1} 400w`,
+      Jpg2: `${Jpg200_2} 200w, ${Jpg400_2} 400w`,
+      Jpg3: `${Jpg200_3} 200w, ${Jpg400_3} 400w`,
     }
   }
 }
