@@ -203,16 +203,16 @@ export default {
   },
 
   mounted() {
-    window.addEventListener('scroll', this.onScroll, {passive: true});
+    document.body.addEventListener('scroll', this.onScroll, {passive: true});
   },
 
   unmounted() {
-    document.documentElement.removeEventListener('scroll', this.onScroll);
+    document.body.removeEventListener('scroll', this.onScroll);
   },
 
   methods: {
     onScroll() {
-      this.scrollTop = document.documentElement.scrollTop;
+      this.scrollTop = document.body.scrollTop;
     }
   }
 }
