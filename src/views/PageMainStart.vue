@@ -15,7 +15,7 @@
 
 <template>
   <div class="root-page-start">
-    <header class="header">ФИНАЛИСТКИ 2024</header>
+    <header class="header">ФИНАЛИСТКИ 2025</header>
     <MissCardsContainer></MissCardsContainer>
   </div>
 </template>
