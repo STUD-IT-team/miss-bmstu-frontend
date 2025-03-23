@@ -80,7 +80,7 @@
 
       .questions-answers-container
         .answer-container
-          font-medium()
+          font-large()
           &:not(:last-child)
             margin-bottom 20px
           input[type=checkbox]
