@@ -77,7 +77,7 @@
         <img v-for="partner in partnersList" class="partner" :src="partner.logo" alt="partner-logo"/>
       </router-link>
     </div>
-    <div class="footer-bottom-title">Сайт разработан Студенческим советом МГТУ&nbsp;им.&nbsp;Н.Э.&nbsp;Баумана, 2024&nbsp;г.</div>
+    <div class="footer-bottom-title">Сайт разработан Студенческим советом МГТУ&nbsp;им.&nbsp;Н.Э.&nbsp;Баумана, 2025&nbsp;г.</div>
   </footer>
 </template>
 

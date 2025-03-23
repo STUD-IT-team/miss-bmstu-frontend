@@ -57,9 +57,9 @@
                      :image-webp="Webp2"
                      :image-jpg="Jpg2"
                      name="Тимофей Суслов"
-                     phone=""
-                     mail=""
-                     telegram=""
+                     phone="+7 (916) 574-36-99"
+                     mail="suslov@bmstu.ru"
+                     telegram="tvsuslov"
                      title="Председатель Студенческого Совета"
       ></OrganizerCard>
       <OrganizerCard class="organizer-card"

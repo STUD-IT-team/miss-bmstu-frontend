@@ -29,7 +29,7 @@
 
 <template>
   <div class="root-page-vote">
-    <header class="header">ФИНАЛИСТКИ 2024</header>
+    <header class="header">ФИНАЛИСТКИ 2025</header>
     <section class="main-text">
       <p>
         Чтобы поддержать участницу, <mark>отправь SMS</mark> на номер {{ phoneNumberToVoting }} в&nbsp;формате: «СТУД [номер участницы]».
