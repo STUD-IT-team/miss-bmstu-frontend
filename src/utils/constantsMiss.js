@@ -345,11 +345,11 @@ export const missList = [
 
 
 import ImagePartner1 from '#~/images/miss/missPartners/PartnerUMP.png';
-import ImagePartner2 from '#~/images/miss/missPartners/PartnerCOSCO.svg';
-import ImagePartner3 from '#~/images/miss/missPartners/PartnerAdelfi.png';
-import ImagePartner4 from '#~/images/miss/missPartners/PartnerAkhmadulina.png';
-import ImagePartner5 from '#~/images/miss/missPartners/PartnerBaumanskoeBratstvo.png';
-import ImagePartner6 from '#~/images/miss/missPartners/PartnerBrodway.png';
+import ImagePartner2 from '#~/images/miss/missPartners/PartnerHG.png';
+import ImagePartner3 from '#~/images/miss/missPartners/PartnerADELFI.png';
+import ImagePartner4 from '#~/images/miss/missPartners/PartnerREAL.svg';
+import ImagePartner5 from '#~/images/miss/missPartners/PartnerKR.svg';
+import ImagePartner6 from '#~/images/miss/missPartners/PartnerNovolaser.svg';
 import ImagePartner7 from '#~/images/miss/missPartners/PartnerCHG.png';
 import ImagePartner8 from '#~/images/miss/missPartners/PartnerICG.png';
 import ImagePartner9 from '#~/images/miss/missPartners/PartnerKAMAZ.png';
@@ -372,6 +372,36 @@ export const partnersList = [
     title: 'Управление молодёжной политики',
     description: 'Управление молодёжной политики — одно из ключевых подразделений МГТУ им. Н.Э. Баумана, играющее главную роль в развитии молодёжной сферы в нашем Университете. В его структуре действуют отделы, способствующие реализации творческих и социальных идей молодёжи и стимулирующие развитие науки. Управление проводит анализ потребностей молодёжи, создает программы поддержки для их реализации, формирует условия для активного участия молодёжи в жизни Университета и поддерживает талантливых и перспективных студентов. «Лидеры управляют будущим — мы создаем лидеров!»',
     href: 'https://t.me/b2b_bmstu',
+  },
+  {
+    logo: ImagePartner2,
+    title: 'Hobby Games',
+    description: '«Hobby Games» — интернет-магазин настольных игр, а также сеть розничных магазинов настольных игр и аксессуаров по всей России.',
+    href: 'https://hobbygames.ru/',
+  },
+  {
+    logo: ImagePartner3,
+    title: 'Adelfi Beauty Studio',
+    description: 'Adelfi Beauty Studio — место, где красота становится искусством, а забота о клиентах — главный приоритет. Здесь предлагается широкий спектр услуг: лазерная эпиляция, косметология, массаж, маникюр и педикюр, уход за бровями и ресницами. Процедуры проводят опытные специалисты с использованием высококачественных материалов.\nAdelfi Beauty Studio — место, где красота не требует жертв!',
+    href: 'https://adelfi-studio.ru',
+  },
+  {
+    logo: ImagePartner4,
+    title: 'Автошкола РЕАЛ',
+    description: 'Автошкола РЕАЛ — это успешная сеть современных автошкол, которая поднимает уровень получения водительского удостоверения на новый уровень. Здесь собрали всё лучшее для учеников:\n— профессиональные преподаватели\n— опытные инструкторы\n— сопровождение на каждом этапе обучения\n— собственное приложение для обучения в онлайн-формате\n— множество филиалов в Москве и Московской области',
+    href: 'https://real-avto.com/',
+  },
+  {
+    logo: ImagePartner5,
+    title: 'Kinoroom Moscow',
+    description: 'Kinoroom Moscow — пространство, где вы можете посмотреть любимое кино, не отвлекаясь на хруст попкорна и разговоры посторонних людей. Здесь, в зале с удобными диванами, вы насладитесь атмосферой уюта и уединения!',
+    href: 'https://kinoroommoscow.ru/',
+  },
+  {
+    logo: ImagePartner6,
+    title: 'NovoLaser',
+    description: 'Компания NovoLaser успешно работает в бьюти-индустрии уже более 11 лет и дважды завоевала награды в номинации «Лучшее предприятие отрасли». 36 филиалов в 20 городах России, качественный сервис, десятки тысяч положительных отзывов и уже более 200.000 довольных клиентов, которые доверили NovoLaser своё здоровье и красоту. Все специалисты имеют медицинское образование, а оборудование относится к премиум-классу.',
+    href: 'https://novolazer.ru/',
   },
 ];
 
