@@ -15,7 +15,7 @@
   &:hover
     .photo-container
       .photo
-        filter brightness(1.2)
+        filter brightness(1.1)
         transform scale(1.1)
         transition all 0.4s ease-out-fast
   .photo-container
