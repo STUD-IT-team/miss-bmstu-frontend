@@ -111,10 +111,19 @@
         <li>Конкурс «Лучшая группа поддержки»</li>
       </ul>
       <p>После проведения всех этапов <mark>подводятся итоги</mark> и, конечно же, <mark>проходит награждение</mark> всех финалисток.</p>
-<!--      <header class="header-colored">КАК ЭТО БЫЛО</header>-->
-<!--      <img class="image-full-size" src="/res/images/missAwarding.png" alt="photo from awarding">-->
-<!--      <iframe class="image-full-size" src="https://vk.com/video_ext.php?oid=-26724538&id=456239353&hd=3&autoplay=1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>-->
-<!--      <ViewPortWatcher on-ref="rutubeIframePlayer" v-model="nominationsVisible[0]" :bottom-offset="100" :top-offset="-200"><iframe ref="rutubeIframePlayer" class="image-full-size" :class="{'hidden': !nominationsVisible[0]}" src="https://rutube.ru/play/embed/1ec8f8e6eacac206b62c115630e33066" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></ViewPortWatcher>-->
+    </section>
+
+    <header class="header">ЖЮРИ</header>
+    <section class="section-text">
+      <p>В состав жюри конкурса входят представители администрации Университета и партнёры мероприятия. Коллегию возглавляет президент МГТУ им. Н.Э. Баумана, доктор технических наук А.А. Александров.</p>
+      <h3>За годы проведения конкурса в состав жюри входили яркие и известные личности:</h3>
+      <ul class="jury-list">
+        <li>Олег Германович Артемьев — российский космонавт-испытатель, Герой России</li>
+        <li>Олег Николаевич Евтушенко — исполнительный директор Госкорпорации «Ростех»</li>
+        <li>Сергей Степанович Сахненко — генеральный директор АО «Объединенная приборостроительная корпорация»</li>
+        <li>Сергей Александрович Куликов — председатель Правления АО «Роснано», выпускник МГТУ им. Н.Э. Баумана</li>
+        <li>Юлия Михалкова — российская актриса и телеведущая</li>
+      </ul>
     </section>
 
 <!--    <header class="header">ЖЮРИ</header>-->
