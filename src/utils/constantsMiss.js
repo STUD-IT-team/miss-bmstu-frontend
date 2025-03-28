@@ -288,7 +288,7 @@ export const missList = [
     ]
   },
   {
-    id: 8, name: 'Ковалёва Екатерина', age: '18 лет', group: 'РК6-46Б', height: 168,
+    id: 8, name: 'Ковалева Екатерина', age: '18 лет', group: 'РК6-46Б', height: 168,
     bioImages: [
       // {jpg: imageMiss8Profile1Jpg600, webp: imageMiss8Profile1Webp600},
       // {jpg: imageMiss8Profile2Jpg600, webp: imageMiss8Profile2Webp600},
