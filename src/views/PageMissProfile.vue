@@ -112,7 +112,7 @@
               trans()
 
           .answer
-            .mark
+            mark
               background none
               color colorDarkBgText
             max-height 0
