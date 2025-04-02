@@ -81,6 +81,9 @@
       .questions-answers-container
         .answer-container
           font-large()
+          mark
+            background none
+            color colorDarkBgText
           &:not(:last-child)
             margin-bottom 20px
           input[type=checkbox]
