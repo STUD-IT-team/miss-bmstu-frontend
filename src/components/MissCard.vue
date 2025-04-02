@@ -134,7 +134,7 @@
       </div>
     </section>
     <section v-if="showVotes" class="section-voting">
-      <div class="info">Для голосования отправить SMS на номер <span class="text-colored">{{ phoneNumberToVoting }} </span> с кодом <span class="text-colored">СТУД {{ id }}</span></div>
+      <div class="info">Для голосования отправляй SMS на номер <span class="text-colored">{{ phoneNumberToVoting }} </span> с кодом <span class="text-colored">СТУД {{ id }}</span></div>
       <div class="slider-container">
         <div class="slider" :style="{'--progress': progressToMax}">{{ Math.ceil(progressTotal * 100 * 100 / 100) }}%</div>
       </div>
