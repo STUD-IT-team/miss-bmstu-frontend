@@ -51,7 +51,26 @@
       <label>E-mail</label>
       <a class="contact" href="mailto:miss.bmstu@yandex.ru" target="_blank">miss.bmstu@yandex.ru</a>
     </section>
-
+<template>
+  <div class="root-page-vote">
+    <header class="header">ФИНАЛИСТКИ 2025</header>
+    <section class="main-text">
+      <p>Как проголосовать за свою фаворитку?</p>
+      <p>
+        Чтобы поддержать участницу, <mark>отправь SMS</mark> на номер {{ phoneNumberToVoting }} в&nbsp;формате: «СТУД [номер участницы]».
+      </p>
+      <p>
+        Пример: если голосуешь за&nbsp;финалистку №1, отправь: <mark>СТУД 1</mark> (пробел обязателен, регистр букв не&nbsp;имеет значения).
+      </p>
+      <p>Голосование доступно для абонентов: Билайн, МТС, Мегафон, Tele2, Тинькофф, Мотив.</p>
+      <p>
+        Стоимость <mark>SMS</mark> - 11&nbsp;рублей. Подтверждающее сообщение оператору — бесплатно.
+      </p>
+      <p>Организатор голосования: <a href="https://mvote.ru" target="_blank">Mvote.ru</a></p>
+    </section>
+    <MissCardsContainer show-votes></MissCardsContainer>
+  </div>
+</template>
     <section class="organizers-container">
       <OrganizerCard class="organizer-card"
                      :image-webp="Webp2"
@@ -78,7 +97,7 @@
                      phone="+7 (916) 244-81-87"
                      mail="sashamanzhina@mail.ru"
                      telegram="alexsandramanzhina"
-                     title="Ответственный за работу с партнерами"
+                     title="Ответственный за работу с партнёрами"
       ></OrganizerCard>
     </section>
   </div>
