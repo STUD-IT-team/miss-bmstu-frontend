@@ -105,9 +105,6 @@
             gap 10px
             cursor pointer
             trans()
-            mark
-              background none
-              color colorDarkBgText
             &:hover
               padding-left 15px
               opacity 0.9
