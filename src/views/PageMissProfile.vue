@@ -112,6 +112,9 @@
               trans()
 
           .answer
+            mark
+              background none
+              color colorDarkBgText
             max-height 0
             padding 0 10px
             opacity 0
