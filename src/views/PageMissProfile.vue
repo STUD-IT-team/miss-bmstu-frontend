@@ -185,7 +185,7 @@
         <section class="questions-answers-container">
           <div v-for="(QAtext, idx) in miss.QAtexts" class="answer-container">
             <input type="checkbox" :id="`question-${idx}`" :checked="idx === 0"/>
-            <div class="answer" v-html="QAtext.answer"></div>
+            <div class="answer" v-html="<style>mark \{background: none;color: #60bbf4;\}</style>"+"QAtext.answer"></div>
           </div>
         </section>
       </div>
