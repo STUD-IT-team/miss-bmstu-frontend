@@ -112,6 +112,9 @@
               trans()
 
           .answer
+            mark
+              background none
+              color colorDarkBgText
             max-height 0
             padding 0 10px
             opacity 0
@@ -182,11 +185,7 @@
         <section class="questions-answers-container">
           <div v-for="(QAtext, idx) in miss.QAtexts" class="answer-container">
             <input type="checkbox" :id="`question-${idx}`" :checked="idx === 0"/>
-<!--            <label class="question" :for="`question-${idx}`">-->
-<!--              <span v-html="QAtext.question"></span>-->
-<!--              <img class="arrow" src="/res/icons/arrow-right-small.svg" alt="">-->
-<!--            </label>-->
-            <div class="answer" v-html="QAtext.answer"></div>
+            <div class="answer" v-html="'<style>mark {background: none; color: #60bbf4;}</style>' + QAtext.answer"></div>
           </div>
         </section>
       </div>
