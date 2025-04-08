@@ -85,7 +85,7 @@
         <a :href="partner.href" target="_blank" class="link"><img :src="partner.logo" alt="logo"></a>
         <div class="info-container">
           <a :href="partner.href" target="_blank" class="link"><header class="title">{{ partner.title }}</header></a>
-          <div class="description">{{ partner.description }}</div>
+          <div class="description">{{ "'<style>mark {background: none; color: #60bbf4;} p {margin: 1em 0; line-height: 1.5;} listing {display: block; font-family: monospace; white-space: pre; margin: 1em 0;}</style>' + partner.description" }}</div>
         </div>
       </li>
     </ul>
