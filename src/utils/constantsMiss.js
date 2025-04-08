@@ -350,7 +350,7 @@ import ImagePartner3 from '#~/images/miss/missPartners/PartnerADELFI.png';
 import ImagePartner4 from '#~/images/miss/missPartners/PartnerREAL.svg';
 import ImagePartner5 from '#~/images/miss/missPartners/PartnerKR.svg';
 import ImagePartner6 from '#~/images/miss/missPartners/PartnerNovolaser.svg';
-import ImagePartner7 from '#~/images/miss/missPartners/PartnerCHG.png';
+import ImagePartner7 from '#~/images/miss/missPartners/PartnerKingstore.png';
 import ImagePartner8 from '#~/images/miss/missPartners/PartnerICG.png';
 import ImagePartner9 from '#~/images/miss/missPartners/PartnerKAMAZ.png';
 import ImagePartner10 from '#~/images/miss/missPartners/PartnerKreateh.png';
@@ -376,7 +376,7 @@ export const partnersList = [
   {
     logo: ImagePartner2,
     title: 'Hobby Games',
-    description: '«Hobby Games» — интернет-магазин настольных игр, а также сеть розничных магазинов настольных игр и аксессуаров по всей России.',
+    description: 'Хочешь окунуться в мир тайных кланов, ночных схваток и эпичных приключений? \n\n«Hobby Games» — проводник в мир настолок! Это крутой интернет-магазин и сеть розничных магазинов по всей России, где ты найдёшь игры на любой вкус: от хитрых стратегий до безумно весёлых party-геймов.  \n\nЗдесь ты прокачаешь навыки скрытности, тактики и, конечно, зарядишься адреналином и эмоциями! Заходи, выбирай игру — и пусть победит хитрейший!\n\nHobby Games — играй с лучшими!',
     href: 'https://hobbygames.ru/',
   },
   {
@@ -402,6 +402,12 @@ export const partnersList = [
     title: 'NovoLaser',
     description: 'Компания NovoLaser успешно работает в бьюти-индустрии уже более 11 лет и дважды завоевала награды в номинации «Лучшее предприятие отрасли». 36 филиалов в 20 городах России, качественный сервис, десятки тысяч положительных отзывов и уже более 200.000 довольных клиентов, которые доверили NovoLaser своё здоровье и красоту. Все специалисты имеют медицинское образование, а оборудование относится к премиум-классу.',
     href: 'https://novolazer.ru/',
+  },
+  {
+    logo: ImagePartner7,
+    title: 'KINGSTORE MOSCOW',
+    description: 'KINGSTORE MOSCOW — это 2 крутых магазина федеральной сети в Москве, где ты найдёшь оригинальные iPhone по лучшим ценам!  \n\nПокупаешь новый iPhone? Получаешь:  \n— Пожизненную гарантию\n— Подарки на 20 000₽\n— Выгодный Trade-in (обменяй старый телефон на скидку)  \n— Рассрочку 0% — даже дистанционно!  \n\nНашли дешевле? Сделаем цену ещё ниже!  \n\nЗаходи и забирай свой идеальный iPhone!\n\nKINGSTORE — техника с выгодой!',
+    href: 'https://moscow.kingstore.link/',
   },
 ];
 
