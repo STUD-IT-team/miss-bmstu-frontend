@@ -350,7 +350,7 @@ import ImagePartner3 from '#~/images/miss/missPartners/PartnerADELFI.png';
 import ImagePartner4 from '#~/images/miss/missPartners/PartnerREAL.svg';
 import ImagePartner5 from '#~/images/miss/missPartners/PartnerKR.svg';
 import ImagePartner6 from '#~/images/miss/missPartners/PartnerNovolaser.svg';
-import ImagePartner7 from '#~/images/miss/missPartners/PartnerKingstore.svg';
+import ImagePartner7 from '#~/images/miss/missPartners/PartnerKingsore.svg';
 import ImagePartner8 from '#~/images/miss/missPartners/PartnerICG.png';
 import ImagePartner9 from '#~/images/miss/missPartners/PartnerKAMAZ.png';
 import ImagePartner10 from '#~/images/miss/missPartners/PartnerKreateh.png';
