@@ -351,12 +351,12 @@ import ImagePartner4 from '#~/images/miss/missPartners/PartnerREAL.svg';
 import ImagePartner5 from '#~/images/miss/missPartners/PartnerKR.svg';
 import ImagePartner6 from '#~/images/miss/missPartners/PartnerNovolaser.svg';
 import ImagePartner7 from '#~/images/miss/missPartners/PartnerKingsore.svg';
-import ImagePartner8 from '#~/images/miss/missPartners/PartnerICG.png';
-import ImagePartner9 from '#~/images/miss/missPartners/PartnerKAMAZ.png';
-import ImagePartner10 from '#~/images/miss/missPartners/PartnerKreateh.png';
+import ImagePartner8 from '#~/images/miss/missPartners/PartnerReform.svg';
+import ImagePartner9 from '#~/images/miss/missPartners/PartnerLicorne.png';
+import ImagePartner10 from '#~/images/miss/missPartners/PartnerTvigle.svg';
 import ImagePartner11 from '#~/images/miss/missPartners/PartnerLaGrase.png';
-import ImagePartner12 from '#~/images/miss/missPartners/PartnerLisoBorie.png';
-import ImagePartner13 from '#~/images/miss/missPartners/PartnerQuesteria.png';
+import ImagePartner12 from '#~/images/miss/missPartners/PartnerLiso.png';
+import ImagePartner13 from '#~/images/miss/missPartners/PartnerMarvel.png';
 import ImagePartner14 from '#~/images/miss/missPartners/PartnerSensorium.png';
 import ImagePartner15 from '#~/images/miss/missPartners/PartnerSeverMetropol.png';
 import ImagePartner16 from '#~/images/miss/missPartners/PartnerSuperstretching.png';
@@ -408,6 +408,42 @@ export const partnersList = [
     title: 'KINGSTORE MOSCOW',
     description: '<p>KINGSTORE MOSCOW — это 2 крутых магазина федеральной сети в Москве, где ты найдёшь оригинальные iPhone по лучшим ценам!</p><p>Покупаешь новый iPhone? Получаешь:</p><ul class="listing"><li>— Пожизненную гарантию</li><li>— Подарки на 20 000₽</li><li>— Выгодный Trade-in (обменяй старый телефон на скидку)</li><li>— Рассрочку 0% — даже дистанционно!</li></ul><p>Нашли дешевле? Сделаем цену ещё ниже!</p><p>Заходи и забирай свой идеальный iPhone!</p><p>KINGSTORE — техника с выгодой!</p>',
     href: 'https://moscow.kingstore.link/',
+  },
+  {
+    logo: ImagePartner8,
+    title: 'REFORMA LAB',
+    description: '<p>REFORMA LAB — современная ораторская школа с более чем 8-летней историей и единственный официальный партнёр МГИМО и Бизнес-школы МГИМО в сфере коммуникационных практик. Школа предлагает полный спектр программ: от базового ораторского искусства и актёрского мастерства до продвинутых дисциплин — риторики, техник переговоров, профайлинга.</p><p>Главное отличие REFORMA LAB — сильнейший состав преподавателей, каждый из которых является признанным экспертом и личным брендом в своей области: Лариса Баранова, Ольга Сальникова, Маргарита Радциг, Виктор Алферов, Грета Сабурова и другие. Основатель школы — Алиса Старовойтова, профессиональная актриса и педагог с 20-летним опытом.</p><p>Школа работает в бутиковом формате: небольшие группы, персонализированные программы, индивидуальное наставничество.</p>',
+    href: 'https://reforma-lab.com/?utm_source=tg&utm_medium=social&utm_campaign=tg_smm',
+  },
+  {
+    logo: ImagePartner9,
+    title: 'LICORNE',
+    description: '<p>Бренд LICORNE — это украшения ручной работы с характером. Уникальный авторский дизайн, премиальное качество и изысканный стиль делают каждое изделие настоящим акцентом образа!</p><p>Девиз бренда — «Красота должна быть без повода!» — вдохновляет дарить себе особенные моменты каждый день. В коллекциях LICORNE — как стильная база, так и смелые, выразительные украшения, созданные для тех, кто не боится быть яркой и неповторимой.</p><p>Каждое украшение создаётся вручную с вниманием к деталям и любовью к своему делу. LICORNE — секретный штрих для создания идеального образа!</p>',
+    href: 'https://vk.com/licornejewelry',
+  },
+  {
+    logo: ImagePartner10,
+    title: 'Твигл',
+    description: '<p>Твигл — первый легальный онлайн-кинотеатр в России, который уже более 17 лет открывает зрителям мир качественного кино и сериалов. В постоянно обновляющейся библиотеке — всё, что нужно для идеального вечера: от комедий и детективов до любимых мультфильмов и самых популярных турецких сериалов.</p><p>Твигл — кинотеатр, который всегда рядом!</p>',
+    href: 'https://www.tvigle.ru/',
+  },
+  // {
+  //   logo: ImagePartner11,
+  //   title: 'Студия комплексного массажа Юлии Сухоруковой',
+  //   description: '<p>Студия комплексного массажа Юлии Сухоруковой — это пространство заботы о теле и внутреннем балансе. Здесь вы найдете профессиональный подход, индивидуальное внимание и широкий выбор массажных техник: от классического и лимфодренажного до спортивного и антицеллюлитного массажа.</p><p>Опытные мастера используют только качественные масла и косметику, чтобы каждый сеанс приносил не только пользу, но и удовольствие. В студии доступны программы для релаксации, восстановления и коррекции фигуры.</p><p>Юлия Сухорукова и её команда помогут почувствовать себя лучше, свободнее и гармоничнее уже с первого визита!</p>',
+  //   href: 'http://suhorukovamassage.ru/',
+  // },
+  {
+    logo: ImagePartner12,
+    title: 'Лисоборье',
+    description: '<p>Танцевальная школа «Лисоборье» — это не просто про танцы, это про стиль жизни, движение и уют. Здесь царит особая атмосфера тепла и поддержки, которая сразу располагает к себе.</p><p>Школа специализируется на направлении Modern Swing — парном социальном танце под современную музыку, который уже покорил сердца по всему миру.</p><p>В «Лисоборье» работают профессиональные преподаватели и внимательные инструкторы, а комфортные залы и дружелюбная команда делают занятия настоящим удовольствием. Помимо танцев — выезды на природу, прогулки, праздники и дружеская атмосфера. Это больше, чем школа — это место, куда хочется возвращаться!</p>',
+    href: 'https://lisoborie.ru',
+  },
+  {
+    logo: ImagePartner13,
+    title: 'Marvel Cosmetics',
+    description: '<p>Marvel Cosmetics — бренд премиальной косметики, основанный в 2013 году. За это время он завоевал доверие миллионов по всему миру благодаря сочетанию безупречного качества и доступной цены.</p><p>Философия бренда — дарить каждой женщине возможность раскрыть свою красоту и уверенность. В ассортименте — изысканные палитры, стойкие текстуры и инновационные формулы, соответствующие высоким стандартам.</p><p>Особую популярность завоевали косметические карандаши Marvel — лёгкие в нанесении и невероятно стойкие, они стали выбором профессиональных визажистов.</p><p>Бренд придерживается принципов экологичности: использует эко-упаковку, не тестирует продукцию на животных и минимизирует отходы. Marvel Cosmetics — это премиум-качество, стиль и забота о будущем!</p>',
+    href: 'https://marvelcosmetics.ucraft.site/#',
   },
 ];
 
