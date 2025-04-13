@@ -354,7 +354,7 @@ import ImagePartner7 from '#~/images/miss/missPartners/PartnerKingsore.svg';
 import ImagePartner8 from '#~/images/miss/missPartners/PartnerReform.svg';
 import ImagePartner9 from '#~/images/miss/missPartners/PartnerLicorne.png';
 import ImagePartner10 from '#~/images/miss/missPartners/PartnerTvigle.svg';
-import ImagePartner11 from '#~/images/miss/missPartners/PartnerLaGrase.png';
+import ImagePartner11 from '#~/images/miss/missPartners/PartnerMasage.png';
 import ImagePartner12 from '#~/images/miss/missPartners/PartnerLiso.png';
 import ImagePartner13 from '#~/images/miss/missPartners/PartnerMarvel.png';
 import ImagePartner14 from '#~/images/miss/missPartners/PartnerSensorium.png';
@@ -427,12 +427,12 @@ export const partnersList = [
     description: '<p>Твигл — первый легальный онлайн-кинотеатр в России, который уже более 17 лет открывает зрителям мир качественного кино и сериалов. В постоянно обновляющейся библиотеке — всё, что нужно для идеального вечера: от комедий и детективов до любимых мультфильмов и самых популярных турецких сериалов.</p><p>Твигл — кинотеатр, который всегда рядом!</p>',
     href: 'https://www.tvigle.ru/',
   },
-  // {
-  //   logo: ImagePartner11,
-  //   title: 'Студия комплексного массажа Юлии Сухоруковой',
-  //   description: '<p>Студия комплексного массажа Юлии Сухоруковой — это пространство заботы о теле и внутреннем балансе. Здесь вы найдете профессиональный подход, индивидуальное внимание и широкий выбор массажных техник: от классического и лимфодренажного до спортивного и антицеллюлитного массажа.</p><p>Опытные мастера используют только качественные масла и косметику, чтобы каждый сеанс приносил не только пользу, но и удовольствие. В студии доступны программы для релаксации, восстановления и коррекции фигуры.</p><p>Юлия Сухорукова и её команда помогут почувствовать себя лучше, свободнее и гармоничнее уже с первого визита!</p>',
-  //   href: 'http://suhorukovamassage.ru/',
-  // },
+  {
+    logo: ImagePartner11,
+    title: 'Студия комплексного массажа Юлии Сухоруковой',
+    description: '<p>Студия комплексного массажа Юлии Сухоруковой — это пространство заботы о теле и внутреннем балансе. Здесь вы найдете профессиональный подход, индивидуальное внимание и широкий выбор массажных техник: от классического и лимфодренажного до спортивного и антицеллюлитного массажа.</p><p>Опытные мастера используют только качественные масла и косметику, чтобы каждый сеанс приносил не только пользу, но и удовольствие. В студии доступны программы для релаксации, восстановления и коррекции фигуры.</p><p>Юлия Сухорукова и её команда помогут почувствовать себя лучше, свободнее и гармоничнее уже с первого визита!</p>',
+    href: 'http://suhorukovamassage.ru/',
+  },
   {
     logo: ImagePartner12,
     title: 'Лисоборье',
