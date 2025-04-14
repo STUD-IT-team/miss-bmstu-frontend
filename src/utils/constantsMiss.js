@@ -358,7 +358,7 @@ import ImagePartner11 from '#~/images/miss/missPartners/PartnerMasage.png';
 import ImagePartner12 from '#~/images/miss/missPartners/PartnerLiso.png';
 import ImagePartner13 from '#~/images/miss/missPartners/PartnerMarvel.png';
 import ImagePartner14 from '#~/images/miss/missPartners/PartnerReshape.svg';
-import ImagePartner15 from '#~/images/miss/missPartners/PartnerSeverMetropol.png';
+import ImagePartner15 from '#~/images/miss/missPartners/PartnerTavrida.png';
 import ImagePartner16 from '#~/images/miss/missPartners/PartnerSuperstretching.png';
 import ImagePartner17 from '#~/images/miss/missPartners/PartnerTavrida.png';
 import ImagePartner18 from '#~/images/miss/missPartners/PartnerTCF.png';
@@ -450,6 +450,12 @@ export const partnersList = [
     title: 'RESHAPE',
     description: '<p>RESHAPE — международная сеть фитнес-студий для девушек, созданная для тех, кто хочет чувствовать себя сильной, уверенной и свободной в движении!</p><p>9 стильных студий в центре Москвы, более 11 направлений тренировок: от пилатеса и танцев до фитбоксинга и функционального тренинга — всё для создания здорового, подтянутого тела и внутреннего баланса.</p><p>Специально для участниц конкурса и студенток МГТУ им. Баумана — скидка 30% на абонементы по промокоду «БАУМАНКА».</p><p>RESHAPE — это энергия, поддержка и пространство, где раскроется твоя настоящая сила!</p>',
     href: 'https://reshape.global',
+  },
+  {
+    logo: ImagePartner15,
+    title: 'Таврида.АРТ',
+    description: '<p>«Таврида.АРТ» — это Город молодых творцов и мощное сообщество, объединяющее талантливую молодёжь и профессионалов творческих индустрий. Проекты арт-кластера преображают культурные пространства, развивают регионы и популяризируют современное искусство и креативные профессии.</p><p>«Таврида.АРТ» помогает молодым творцам раскрывать свой потенциал, совершенствовать навыки и становиться частью сильного культурного сообщества.</p><p>В число инициатив входят Летние школы Академии «Меганом», фестиваль «Таврида.АРТ», контент-студия «Юг.Кино», сеть арт-резиденций, музыкальный лейбл и бренд «Арт-Молодость». Всё это — для тех, кто уже сегодня создает будущее культуры!</p>',
+    href: 'https://tavrida.art/',
   },
 ];
 
