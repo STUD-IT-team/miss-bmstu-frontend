@@ -357,7 +357,7 @@ import ImagePartner10 from '#~/images/miss/missPartners/PartnerTvigle.svg';
 import ImagePartner11 from '#~/images/miss/missPartners/PartnerMasage.png';
 import ImagePartner12 from '#~/images/miss/missPartners/PartnerLiso.png';
 import ImagePartner13 from '#~/images/miss/missPartners/PartnerMarvel.png';
-import ImagePartner14 from '#~/images/miss/missPartners/PartnerSensorium.png';
+import ImagePartner14 from '#~/images/miss/missPartners/PartnerReshape.svg';
 import ImagePartner15 from '#~/images/miss/missPartners/PartnerSeverMetropol.png';
 import ImagePartner16 from '#~/images/miss/missPartners/PartnerSuperstretching.png';
 import ImagePartner17 from '#~/images/miss/missPartners/PartnerTavrida.png';
@@ -394,7 +394,7 @@ export const partnersList = [
   {
     logo: ImagePartner5,
     title: 'Kinoroom Moscow',
-    description: 'Kinoroom Moscow — пространство, где вы можете посмотреть любимое кино, не отвлекаясь на хруст попкорна и разговоры посторонних людей. Здесь, в зале с удобными диванами, вы насладитесь атмосферой уюта и уединения!',
+    description: '<p>Kinoroom Moscow — атмосферное пространство для настоящих ценителей кино. Здесь тебя ждёт уютный зал с мягкими диванами, тёплым светом и качественным звуком — всё для полного кинопогружения без постороннего шума, вспышек экранов и запаха попкорна.</p><p>Это идеальное место для уютного свидания, встречи с друзьями или спокойного вечера наедине с любимым фильмом и чашкой чая. Kinoroom — кино так, как вы всегда хотели его смотреть!</p>',
     href: 'https://kinoroommoscow.ru/',
   },
   {
@@ -444,6 +444,12 @@ export const partnersList = [
     title: 'Marvel Cosmetics',
     description: '<p>Marvel Cosmetics — бренд премиальной косметики, основанный в 2013 году. За это время он завоевал доверие миллионов по всему миру благодаря сочетанию безупречного качества и доступной цены.</p><p>Философия бренда — дарить каждой женщине возможность раскрыть свою красоту и уверенность. В ассортименте — изысканные палитры, стойкие текстуры и инновационные формулы, соответствующие высоким стандартам.</p><p>Особую популярность завоевали косметические карандаши Marvel — лёгкие в нанесении и невероятно стойкие, они стали выбором профессиональных визажистов.</p><p>Бренд придерживается принципов экологичности: использует эко-упаковку, не тестирует продукцию на животных и минимизирует отходы. Marvel Cosmetics — это премиум-качество, стиль и забота о будущем!</p>',
     href: 'https://marvelcosmetics.ucraft.site/#',
+  },
+  {
+    logo: ImagePartner14,
+    title: 'RESHAPE',
+    description: '<p>RESHAPE — международная сеть фитнес-студий для девушек, созданная для тех, кто хочет чувствовать себя сильной, уверенной и свободной в движении!</p><p>9 стильных студий в центре Москвы, более 11 направлений тренировок: от пилатеса и танцев до фитбоксинга и функционального тренинга — всё для создания здорового, подтянутого тела и внутреннего баланса.</p><p>Специально для участниц конкурса и студенток МГТУ им. Баумана — скидка 30% на абонементы по промокоду «БАУМАНКА».</p><p>RESHAPE — это энергия, поддержка и пространство, где раскроется твоя настоящая сила!</p>',
+    href: 'https://reshape.global',
   },
 ];
 
