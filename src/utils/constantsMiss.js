@@ -359,7 +359,7 @@ import ImagePartner12 from '#~/images/miss/missPartners/PartnerLiso.png';
 import ImagePartner13 from '#~/images/miss/missPartners/PartnerMarvel.png';
 import ImagePartner14 from '#~/images/miss/missPartners/PartnerReshape.svg';
 import ImagePartner15 from '#~/images/miss/missPartners/PartnerTavrida.png';
-import ImagePartner16 from '#~/images/miss/missPartners/PartnerSuperstretching.png';
+import ImagePartner16 from '#~/images/miss/missPartners/PartnerVoshod.svg';
 import ImagePartner17 from '#~/images/miss/missPartners/PartnerTavrida.png';
 import ImagePartner18 from '#~/images/miss/missPartners/PartnerTCF.png';
 import ImagePartner19 from '#~/images/miss/missPartners/PartnerVasanta.png';
@@ -456,6 +456,12 @@ export const partnersList = [
     title: 'Таврида.АРТ',
     description: '<p>«Таврида.АРТ» — это Город молодых творцов и мощное сообщество, объединяющее талантливую молодёжь и профессионалов творческих индустрий. Проекты арт-кластера преображают культурные пространства, развивают регионы и популяризируют современное искусство и креативные профессии.</p><p>«Таврида.АРТ» помогает молодым творцам раскрывать свой потенциал, совершенствовать навыки и становиться частью сильного культурного сообщества.</p><p>В число инициатив входят Летние школы Академии «Меганом», фестиваль «Таврида.АРТ», контент-студия «Юг.Кино», сеть арт-резиденций, музыкальный лейбл и бренд «Арт-Молодость». Всё это — для тех, кто уже сегодня создает будущее культуры!</p>',
     href: 'https://tavrida.art/',
+  },
+  {
+    logo: ImagePartner16,
+    title: 'Клуб единоборств «Восход»',
+    description: '<p>Клуб единоборств «Восход» — это больше, чем спортивная секция. Это пространство силы, выносливости и командного духа, где каждый чувствует себя на своём месте — будь ты новичок или опытный боец.</p><p>Мы создаём тёплую, дружелюбную атмосферу, где важны уважение, поддержка и стремление к развитию. Профессиональные тренеры помогут освоить основы или отточить мастерство на новом уровне.</p><p>«Восход» — это сообщество, где единоборства становятся образом жизни. Присоединяйся и стань частью команды!</p>',
+    href: 'https://vk.com/voshod_mma',
   },
 ];
 
