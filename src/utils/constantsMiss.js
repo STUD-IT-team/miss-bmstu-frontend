@@ -360,7 +360,7 @@ import ImagePartner13 from '#~/images/miss/missPartners/PartnerMarvel.png';
 import ImagePartner14 from '#~/images/miss/missPartners/PartnerReshape.svg';
 import ImagePartner15 from '#~/images/miss/missPartners/PartnerTavrida.png';
 import ImagePartner16 from '#~/images/miss/missPartners/PartnerVoshod.svg';
-import ImagePartner17 from '#~/images/miss/missPartners/PartnerTavrida.png';
+import ImagePartner17 from '#~/images/miss/missPartners/PartnerKrem.svg';
 import ImagePartner18 from '#~/images/miss/missPartners/PartnerTCF.png';
 import ImagePartner19 from '#~/images/miss/missPartners/PartnerVasanta.png';
 import ImagePartner20 from '#~/images/miss/missPartners/PartnerWoodenDoor.png';
@@ -462,6 +462,12 @@ export const partnersList = [
     title: 'Клуб единоборств «Восход»',
     description: '<p>Клуб единоборств «Восход» — это больше, чем спортивная секция. Это пространство силы, выносливости и командного духа, где каждый чувствует себя на своём месте — будь ты новичок или опытный боец.</p><p>Мы создаём тёплую, дружелюбную атмосферу, где важны уважение, поддержка и стремление к развитию. Профессиональные тренеры помогут освоить основы или отточить мастерство на новом уровне.</p><p>«Восход» — это сообщество, где единоборства становятся образом жизни. Присоединяйся и стань частью команды!</p>',
     href: 'https://vk.com/voshod_mma',
+  },
+  {
+    logo: ImagePartner17,
+    title: 'Клиника осознанной косметологии «KREM by Varlamova»',
+    description: '<p>Клиника осознанной косметологии «KREM by Varlamova» — это место, где красота и здоровье идут рука об руку. Мы совмещаем научный подход, индивидуальные решения и собственное производство натуральной косметики, чтобы помочь каждому раскрыть свою естественную красоту.</p><p>Наша миссия — дарить уверенность в себе, помогая достигать здоровой, ухоженной кожи с помощью эффективных и безопасных методик!</p>',
+    href: 'https://www.kremmos.ru/',
   },
 ];
 
