@@ -361,8 +361,8 @@ import ImagePartner14 from '#~/images/miss/missPartners/PartnerReshape.svg';
 import ImagePartner15 from '#~/images/miss/missPartners/PartnerTavrida.png';
 import ImagePartner16 from '#~/images/miss/missPartners/PartnerVoshod.svg';
 import ImagePartner17 from '#~/images/miss/missPartners/PartnerKrem.svg';
-import ImagePartner18 from '#~/images/miss/missPartners/PartnerTCF.png';
-import ImagePartner19 from '#~/images/miss/missPartners/PartnerVasanta.png';
+import ImagePartner18 from '#~/images/miss/missPartners/PartnerLEOTALE.svg';
+import ImagePartner19 from '#~/images/miss/missPartners/PartnerAvito.svg';
 import ImagePartner20 from '#~/images/miss/missPartners/PartnerWoodenDoor.png';
 import ImagePartner21 from '#~/images/miss/missPartners/PartnerZvezdochka.png';
 
@@ -468,6 +468,19 @@ export const partnersList = [
     title: 'Клиника осознанной косметологии «KREM by Varlamova»',
     description: '<p>Клиника осознанной косметологии «KREM by Varlamova» — это место, где красота и здоровье идут рука об руку. Мы совмещаем научный подход, индивидуальные решения и собственное производство натуральной косметики, чтобы помочь каждому раскрыть свою естественную красоту.</p><p>Наша миссия — дарить уверенность в себе, помогая достигать здоровой, ухоженной кожи с помощью эффективных и безопасных методик!</p>',
     href: 'https://www.kremmos.ru/',
+  },
+  {
+    logo: ImagePartner18,
+    title: 'LEOTALE',
+    description: '<p>LEOTALE – бренд, где классика обретает новое звучание.</p><p>История бренда началась с идеи создать одежду, которая станет основой гардероба каждой женщины. Модельеры вдохновлялись легендарной Коко Шанель и её знаменитым чёрным маленьким платьем, которое стало символом вечной элегантности и универсальности. Стремление к совершенству и любовь к минимализму легли в основу философии бренда.</p><p>LEOTALE стремится предложить нечто большее, чем просто одежду, поэтому изделия, созданные на производстве, становятся символом уверенности и самовыражения. Лаконичные силуэты, внимание к деталям и высокое качество материалов — это делает продукцию уникальной.</p><p>LEOTALE — это ваш выбор, когда вы хотите выразить себя без лишних слов!</p>',
+    href: 'https://liostore.com/leotale',
+  },
+
+  {
+    logo: ImagePartner19,
+    title: 'Авито',
+    description: '<p>Авито — одна из крупнейших IT-компаний и ведущая онлайн-платформа для коммерции в России. Свыше 72 миллионов пользователей каждый месяц выбирают Авито для поиска товаров, услуг и выгодных предложений.</p><p>Миссия компании — объединять продавцов и покупателей, помогая им находить друг друга для лучших сделок.</p><p>Авито давно стало больше, чем просто сервис — это удобный, технологичный и близкий каждому стиль жизни!</p>',
+    href: 'https://start.avito.ru/?utm_source=event&utm_medium=qr&utm_campaign=bmstu_24042025#form',
   },
 ];
 
