@@ -85,7 +85,7 @@
                      :image-webp="Webp3"
                      :image-jpg="Jpg3"
                      name="Мария Ильиных"
-                     phone="+7 (902) 274-160-31 "
+                     phone="+7 (902) 274-16-31"
                      mail="mariailinyh612@gmail.com "
                      telegram="maria_ilinyh"
                      title="Главный организатор конкурса"
