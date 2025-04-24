@@ -166,7 +166,7 @@ export const missList = [
       // {jpg: imageMiss1Profile4Jpg600, webp: imageMiss1Profile4Webp600},
       // {jpg: imageMiss1Profile5Jpg600, webp: imageMiss1Profile5Webp600},:
     ],
-    nominations: [],
+    nominations: ["Мисс Креатив 2025", "Мисс Целеустремленность 2025"],
     QAtexts: [
       {
         question: '',
@@ -186,7 +186,7 @@ export const missList = [
       // {jpg: imageMiss2Profile5Jpg600, webp: imageMiss2Profile5Webp600},
       // {jpg: imageMiss2Profile6Jpg600, webp: imageMiss2Profile6Webp600},
     ],
-    nominations: [],
+    nominations: ["Мисс Драйв 2025", "Мисс Элегантность 2025"],
     QAtexts: [
       {
         question: '',
@@ -204,7 +204,7 @@ export const missList = [
       // {jpg: imageMiss3Profile5Jpg600, webp: imageMiss3Profile5Webp600},
       // {jpg: imageMiss3Profile6Jpg600, webp: imageMiss3Profile6Webp600},
     ],
-    nominations: [''],
+    nominations: ["Мисс Овация 2025"],
     imageWebp: `${ImageMiss3Webp200} 200w, ${ImageMiss3Webp400} 400w,  ${ImageMiss3Webp800} 800w`,
     imageJpg: `${ImageMiss3Jpg200} 200w, ${ImageMiss3Jpg400} 400w,  ${ImageMiss3Jpg800} 800w`,
     QAtexts: [
@@ -222,7 +222,7 @@ export const missList = [
       // {jpg: imageMiss4Profile3Jpg600, webp: imageMiss4Profile3Webp600},
       // {jpg: imageMiss4Profile4Jpg600, webp: imageMiss4Profile4Webp600},
     ],
-    nominations: [],
+    nominations: ["Мисс Обаяние 2025", "Мисс Онлайн 2025"],
     imageWebp: `${ImageMiss4Webp200} 200w, ${ImageMiss4Webp400} 400w,  ${ImageMiss4Webp800} 800w`,
     imageJpg: `${ImageMiss4Jpg200} 200w, ${ImageMiss4Jpg400} 400w,  ${ImageMiss4Jpg800} 800w`,
     QAtexts: [
@@ -241,7 +241,7 @@ export const missList = [
       // {jpg: imageMiss5Profile3Jpg600, webp: imageMiss5Profile3Webp600},
       // {jpg: imageMiss5Profile4Jpg600, webp: imageMiss5Profile4Webp600},
     ],
-    nominations: [],
+    nominations: ["Мисс Вдохновение 2025", "Мисс Утонченность 2025"],
     imageWebp: `${ImageMiss5Webp200} 200w, ${ImageMiss5Webp400} 400w,  ${ImageMiss5Webp800} 800w`,
     imageJpg: `${ImageMiss5Jpg200} 200w, ${ImageMiss5Jpg400} 400w,  ${ImageMiss5Jpg800} 800w`,
     QAtexts: [
@@ -259,7 +259,7 @@ export const missList = [
       // {jpg: imageMiss6Profile3Jpg600, webp: imageMiss6Profile3Webp600},
       // {jpg: imageMiss6Profile4Jpg600, webp: imageMiss6Profile4Webp600},
     ],
-    nominations: [],
+    nominations: ["Мисс Оригинальность 2025", "Мисс Весна 2025"],
     imageWebp: `${ImageMiss6Webp200} 200w, ${ImageMiss6Webp400} 400w,  ${ImageMiss6Webp800} 800w`,
     imageJpg: `${ImageMiss6Jpg200} 200w, ${ImageMiss6Jpg400} 400w,  ${ImageMiss6Jpg800} 800w`,
     QAtexts: [
@@ -277,7 +277,7 @@ export const missList = [
       // {jpg: imageMiss7Profile3Jpg600, webp: imageMiss7Profile3Webp600},
       // {jpg: imageMiss7Profile4Jpg600, webp: imageMiss7Profile4Webp600},
     ],
-    nominations: [],
+    nominations: ["Мисс Стиль 2025", "Мисс Медиа 2025"],
     imageWebp: `${ImageMiss7Webp200} 200w, ${ImageMiss7Webp400} 400w,  ${ImageMiss7Webp800} 800w`,
     imageJpg: `${ImageMiss7Jpg200} 200w, ${ImageMiss7Jpg400} 400w,  ${ImageMiss7Jpg800} 800w`,
     QAtexts: [
@@ -297,7 +297,7 @@ export const missList = [
     ],
     imageWebp: `${ImageMiss8Webp200} 200w, ${ImageMiss8Webp400} 400w,  ${ImageMiss8Webp800} 800w`,
     imageJpg: `${ImageMiss8Jpg200} 200w, ${ImageMiss8Jpg400} 400w,  ${ImageMiss8Jpg800} 800w`,
-    nominations: [],
+    nominations: ["Мисс Грация 2025"],
     QAtexts: [
       {
         question: '',
@@ -315,7 +315,7 @@ export const missList = [
     ],
     imageWebp: `${ImageMiss9Webp200} 200w, ${ImageMiss9Webp400} 400w,  ${ImageMiss9Webp800} 800w`,
     imageJpg: `${ImageMiss9Jpg200} 200w, ${ImageMiss9Jpg400} 400w,  ${ImageMiss9Jpg800} 800w`,
-    nominations: [],
+    nominations: ["Мисс Изящность 2025", "Мисс Артистичность 2025"],
     QAtexts: [
       {
         question: '',
@@ -333,7 +333,7 @@ export const missList = [
     ],
     imageWebp: `${ImageMiss10Webp200} 200w, ${ImageMiss10Webp400} 400w,  ${ImageMiss10Webp800} 800w`,
     imageJpg: `${ImageMiss10Jpg200} 200w, ${ImageMiss10Jpg400} 400w,  ${ImageMiss10Jpg800} 800w`,
-    nominations: [],
+    nominations: ["Мисс Гармония 2025", "Мисс Дружба 2025"],
     QAtexts: [
       {
         question: '',

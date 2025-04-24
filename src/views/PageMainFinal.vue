@@ -46,26 +46,26 @@
 
     <section class="cards-container-final">
       <MissCardFinal class="card"
-                     :group="missList[0].group"
-                     :name="missList[0].name"
-                     :id="missList[0].id"
-                     :image-jpg="missList[0].imageJpg"
-                     :image-webp="missList[0].imageWebp"
-                     :nominations="missList[0].nominations"
+                     :group="missList[2].group"
+                     :name="missList[2].name"
+                     :id="missList[2].id"
+                     :image-jpg="missList[2].imageJpg"
+                     :image-webp="missList[2].imageWebp"
+                     :nominations="missList[2].nominations"
                      title="МИСС ОЧАРОВАНИЕ"
       ></MissCardFinal>
       <MissCardFinal class="card"
-                     :group="missList[5].group"
-                     :name="missList[5].name"
-                     :id="missList[5].id"
-                     :image-jpg="missList[5].imageJpg"
-                     :image-webp="missList[5].imageWebp"
-                     :nominations="missList[5].nominations"
+                     :group="missList[7].group"
+                     :name="missList[7].name"
+                     :id="missList[7].id"
+                     :image-jpg="missList[7].imageJpg"
+                     :image-webp="missList[7].imageWebp"
+                     :nominations="missList[7].nominations"
                      title="ВИЦЕ-МИСС"
                      light
       ></MissCardFinal>
     </section>
-    <MissCardsContainer class="cards-container-all" :excluded-ids="[1, 6]" show-nominations></MissCardsContainer>
+    <MissCardsContainer class="cards-container-all" :excluded-ids="[3, 8]" show-nominations></MissCardsContainer>
   </div>
 </template>
 
