@@ -6,6 +6,10 @@
 .wrapper
   width 100%
   min-height 100vh
+  position relative
+  background-image url('/res/images/miss-decorations/right-up.png'), url('/res/images/miss-decorations/left-down.png')
+  background-position right top, left bottom
+  background-repeat no-repeat, no-repeat
 
   > *
     width 100%
