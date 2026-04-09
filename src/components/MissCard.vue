@@ -8,7 +8,7 @@
 .root-miss-card
   border-radius borderRadiusM
   overflow hidden
-  background colorBgCards
+  background white
   border 2px solid colorBorderCards
   display flex
   flex-direction column

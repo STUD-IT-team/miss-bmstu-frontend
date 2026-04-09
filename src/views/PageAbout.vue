@@ -98,10 +98,9 @@
   <div class="root-page-about">
     <header class="header">О КОНКУРСЕ</header>
     <section class="section-text">
-      <p><mark>«МиСС Очарование»</mark> — это мероприятие для студенток, которое позволяет демонстрировать свои способности и таланты!</p>
-      <p>В этом году конкурсу <mark>исполняется 23 года</mark>, и он по-прежнему актуален и любим студентами. Его цель — реализация потенциала студентов, развитие их талантов, воспитание патриотичной и социально ответственной личности, а также вовлечение студентов в общественную жизнь и популяризация традиционных ценностей.</p>
-      <p>Эти ценности, включающие патриотизм, историческую память, преемственность поколений, коллективизм, взаимопомощь и взаимоуважение, помогают формировать гармоничную личность, готовую к созидательной деятельности на благо общества.</p>
-      <p>Подготовка к конкурсу длится почти <mark>2 месяца</mark> и включает репетиции творческих номеров, дефиле и театральной постановки, съёмки, интервью и фотосессии. Такая интенсивная подготовка позволяет каждой участнице <mark>раскрыть себя</mark> на финале, где они продемонстрируют свои таланты перед зрителями на Бауманской сцене.</p>
+      <p><mark>«МиСС Очарование»</mark> — это не просто конкурс, а пространство, где студентки раскрывают свои таланты, проявляют индивидуальность и уверенно заявляют о себе.</p>
+      <p>В этом году проекту <mark>исполняется 24 года</mark> — и он по-прежнему остаётся ярким, актуальным и любимым среди студентов. Его миссия — помогать участницам раскрывать свой потенциал, развивать таланты, формировать социально ответственную и патриотичную личность, а также вовлекать студентов в активную общественную жизнь. Особое внимание уделяется популяризации науки и профессии инженера в Университете.</p>
+      <p>Подготовка к конкурсу длится почти <mark>два месяца</mark> и становится настоящим творческим марафоном: репетиции номеров, дефиле, театральные постановки, съемки, интервью и фотосессии. Такой насыщенный процесс помогает каждой участнице <mark>раскрыться</mark> и в финале быть уверенной, яркой и готовой покорять зрителей на Бауманской сцене.</p>
       <p><mark>Этапы финала конкурса:</mark></p>
       <ul class="listing">
         <li>Видеовизитка</li>
@@ -114,24 +113,11 @@
       <p>По итогам всех этапов определяются победительницы и <mark>проходит награждение</mark> финалисток!</p>
     </section>
 
-    <header class="header">ИСТОРИЯ КОНКУРСА</header>
-    <section class="section-text">
-      <p>Конкурс <mark>«МиСС Очарование»</mark> был основан в 2002 году Студенческими Строительными Отрядами (ССО). Изначально он проводился в МЗДК, но с 2005 года был перенесён в БЗДК после его открытия. С 2006 года организацию конкурса взял на себя Студенческий совет МГТУ им. Н.Э. Баумана. Конкурс постоянно <mark>развивается</mark>, следуя современным трендам, и ежегодно удивляет зрителей новыми сюрпризами!</p>
 
-      <p>Конкурс акцентирует внимание не только на внешней красоте, но и на внутреннем очаровании, сочетании таких качеств, как ум, талант, самодостаточность и любовь к себе. Оргкомитет создает атмосферу поддержки и дружбы, где участницы становятся настоящей командой, способной на любые свершения. Благодаря этому многие девушки приобретают уверенность в себе и раскрывают свой потенциал.</p>
-    </section>
 
     <header class="header">ЖЮРИ</header>
     <section class="section-text">
       <p>В состав жюри конкурса входят представители администрации Университета и партнёры мероприятия. Коллегию возглавляет президент МГТУ им. Н.Э. Баумана, доктор технических наук А.А. Александров.</p>
-      <p><mark>За годы проведения конкурса в состав жюри входили яркие и известные личности:</mark></p>
-      <ul class="listing">
-        <li>Олег Германович Артемьев — российский космонавт-испытатель, Герой России</li>
-        <li>Олег Николаевич Евтушенко — исполнительный директор Госкорпорации «Ростех»</li>
-        <li>Сергей Степанович Сахненко — генеральный директор АО «Объединённая приборостроительная корпорация»</li>
-        <li>Сергей Александрович Куликов — председатель Правления АО «Роснано», выпускник МГТУ им. Н.Э. Баумана</li>
-        <li>Юлия Михалкова — российская актриса и телеведущая</li>
-      </ul>
     </section>
 
 <!--    <header class="header">ЖЮРИ</header>-->
@@ -161,8 +147,8 @@
 
     <header class="header">НОМИНАЦИИ</header>
     <section class="section-text">
-      <ViewPortWatcher on-ref="nomination-1" v-model="nominationsVisible[1]" :bottom-offset="100" :top-offset="-200">
-        <div ref="nomination-1" class="nomination-container" :class="{'hidden': !nominationsVisible[1]}">
+      <ViewPortWatcher on-ref="nomination-1" v-model="nominationsVisible[1]" :bottom-offset="100" :top-offset="-200" :no-hide="true">
+        <div ref="nomination-1" class="nomination-container">
           <header class="nomination-header">МИСС ОЧАРОВАНИЕ</header>
           <p>Главная номинация присуждается <mark>победительнице конкурса</mark> — участнице, набравшей наибольшее количество баллов по итогам всех пяти туров финала.</p>
           <p>Каждый член жюри отдельно оценивает каждую участницу на финале, выставляя баллы в специальный бланк. После каждого этапа результаты выводятся на большой экран сцены. Жюри не имеет права обсуждать оценки и влиять друг на друга — каждый голосует независимо.</p>
@@ -170,37 +156,37 @@
         </div>
       </ViewPortWatcher>
 
-      <ViewPortWatcher on-ref="nomination-2" v-model="nominationsVisible[2]" :bottom-offset="100" :top-offset="-200">
-        <div ref="nomination-2" class="nomination-container" :class="{'hidden': !nominationsVisible[2]}">
+      <ViewPortWatcher on-ref="nomination-2" v-model="nominationsVisible[2]" :bottom-offset="100" :top-offset="-200" :no-hide="true">
+        <div ref="nomination-2" class="nomination-container">
           <header class="nomination-header">МИСС ОВАЦИЯ</header>
           <p>В этой номинации всё <mark>решают зрители финала конкурса</mark>. Каждый, кто пришёл поддержать участниц, получает возможность проголосовать за ту участницу, которая, по его мнению, заслуживает победы.</p>
         </div>
       </ViewPortWatcher>
 
-      <ViewPortWatcher on-ref="nomination-3" v-model="nominationsVisible[3]" :bottom-offset="100" :top-offset="-200">
-        <div ref="nomination-3" class="nomination-container" :class="{'hidden': !nominationsVisible[3]}">
+      <ViewPortWatcher on-ref="nomination-3" v-model="nominationsVisible[3]" :bottom-offset="100" :top-offset="-200" :no-hide="true">
+        <div ref="nomination-3" class="nomination-container">
           <header class="nomination-header">МИСС ОНЛАЙН</header>
           <p>Победительница этой номинации определяется <mark>SMS-голосованием</mark>, которое проходит в период подготовки к конкурсу и останавливается прямо на финале. Результаты обновляются в режиме реального времени на сайте, а самый активный участник голосования — тот, кто отправит больше всего SMS, — получит шанс выйти на сцену во время финала и лично вручить приз победительнице!</p>
         </div>
       </ViewPortWatcher>
 
-      <ViewPortWatcher on-ref="nomination-4" v-model="nominationsVisible[4]" :bottom-offset="100" :top-offset="-200">
-        <div ref="nomination-4" class="nomination-container" :class="{'hidden': !nominationsVisible[4]}">
+      <ViewPortWatcher on-ref="nomination-4" v-model="nominationsVisible[4]" :bottom-offset="100" :top-offset="-200" :no-hide="true">
+        <div ref="nomination-4" class="nomination-container">
           <header class="nomination-header">МИСС ДРУЖБА</header>
           <p>Единственная номинация, где победительницу <mark>выбирают сами участницы конкурса</mark>. Тайное голосование проходит за день до финала — девушки отдают голос той, кто стала душой коллектива и поддержкой для всех во время подготовки.</p>
         </div>
       </ViewPortWatcher>
 
-      <ViewPortWatcher on-ref="nomination-5" v-model="nominationsVisible[5]" :bottom-offset="100" :top-offset="-200">
-        <div ref="nomination-5" class="nomination-container" :class="{'hidden': !nominationsVisible[5]}">
+      <ViewPortWatcher on-ref="nomination-5" v-model="nominationsVisible[5]" :bottom-offset="100" :top-offset="-200" :no-hide="true">
+        <div ref="nomination-5" class="nomination-container">
           <header class="nomination-header">МИСС ЦЕЛЕУСТРЕМЛЁННОСТЬ</header>
           <p>Номинация, где <mark>победительницу выбирает оргкомитет конкурса</mark>. В процессе подготовки с финалистками работают хореографы, постановщики, режиссёры, стилисты, фотографы. Оргкомитет оценивает, насколько участницы организованы, собраны и мотивированы, а затем с помощью тайного голосования выбирает ту, которая приложила максимум усилий на пути к финалу.</p>
         </div>
       </ViewPortWatcher>
 
-      <ViewPortWatcher on-ref="nomination-6" v-model="nominationsVisible[6]" :bottom-offset="100" :top-offset="-200">
-        <div ref="nomination-6" class="nomination-container" :class="{'hidden': !nominationsVisible[6]}">
-          <header class="nomination-header">НОМИНАЦИИ ОТ&nbsp;ПАРТНЁРОВ КОНКУРСА</header>
+      <ViewPortWatcher on-ref="nomination-6" v-model="nominationsVisible[6]" :bottom-offset="100" :top-offset="-200" :no-hide="true">
+        <div ref="nomination-6" class="nomination-container">
+          <header class="nomination-header">НОМИНАЦИИ ОТ ПАРТНЁРОВ КОНКУРСА</header>
           <p>Партнёры мероприятия, согласовав с оргкомитетом конкурса, могут учредить специальную номинацию и наградить участницу, которая им особенно понравилась.</p>
         </div>
       </ViewPortWatcher>

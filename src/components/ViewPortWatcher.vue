@@ -31,8 +31,20 @@ export default {
 
   methods: {
     handleScroll() {
-      const elObject = this.$slots.default()[0].ref.i.refs[this.onRef];
-      const {top, bottom} = elObject.getBoundingClientRect();
+      const slot = this.$slots.default?.[0];
+      if (!slot) return;
+      
+      let el;
+      if (slot.ref) {
+        el = this.$refs[slot.ref] || this.$parent?.$refs[slot.ref];
+        if (el && el.$el) el = el.$el;
+      } else if (slot.elm) {
+        el = slot.elm;
+      }
+      
+      if (!el || typeof el.getBoundingClientRect !== 'function') return;
+      
+      const {top, bottom} = el.getBoundingClientRect();
       const screenHeight = document.documentElement.clientHeight;
       const isVisible = (this.topOffset < bottom) && ((top + this.bottomOffset) < screenHeight);
       if (this.modelValueCopy !== isVisible && !(this.modelValueCopy === true && this.noHide)) {
@@ -43,11 +55,11 @@ export default {
     }
   },
   mounted() {
-    document.body.addEventListener('scroll', this.handleScroll);
+    window.addEventListener('scroll', this.handleScroll);
     this.handleScroll();
   },
   unmounted() {
-    document.body.removeEventListener('scroll', this.handleScroll);
+    window.removeEventListener('scroll', this.handleScroll);
   }
 };
 </script>

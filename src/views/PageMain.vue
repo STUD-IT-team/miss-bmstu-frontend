@@ -146,15 +146,15 @@
     <section class="decoration">
       <div v-for="i in 3" :style="{'--repeat-number': i - 1}" class="group">
         <div class="left">
-          <img src="/res/images/miss-decorations/bearing.png" class="rotating" alt="">
-          <img src="/res/images/miss-decorations/gear-1.png" class="rotating" alt="">
-          <img src="/res/images/miss-decorations/shard-3.png" class="rotating" alt="">
+          <img src="/res/images/miss-decorations/el1.png" class="rotating" alt="">
+          <img src="/res/images/miss-decorations/el2.png" class="rotating" alt="">
+          <img src="/res/images/miss-decorations/el3.png" class="rotating" alt="">
         </div>
         <div class="right">
-          <img src="/res/images/miss-decorations/shard-1.png" class="rotating" alt="">
-          <img src="/res/images/miss-decorations/gear-2.png" class="rotating" alt="">
-          <img src="/res/images/miss-decorations/shard-2.png" class="rotating" alt="">
-          <img src="/res/images/miss-decorations/gear-2.png" class="rotating" alt="">
+          <img src="/res/images/miss-decorations/el4.png" class="rotating" alt="">
+          <img src="/res/images/miss-decorations/el5.png" class="rotating" alt="">
+          <img src="/res/images/miss-decorations/el1.png" class="rotating" alt="">
+          <img src="/res/images/miss-decorations/el2.png" class="rotating" alt="">
         </div>
       </div>
     </section>

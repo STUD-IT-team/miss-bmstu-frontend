@@ -29,21 +29,22 @@
 
 <template>
   <div class="root-page-vote">
-    <header class="header">ФИНАЛИСТКИ 2025</header>
+    <header class="header">ФИНАЛИСТКИ 2026</header>
     <section class="main-text">
       <p>Как проголосовать за свою фаворитку?</p>
       <p>
         Чтобы поддержать участницу, <mark>отправь SMS</mark> на номер {{ phoneNumberToVoting }} в&nbsp;формате: «СТУД [номер участницы]».
       </p>
       <p>
-        Пример: если голосуешь за&nbsp;финалистку №1, отправляй <mark>СТУД 1</mark> (пробел обязателен, регистр букв не&nbsp;имеет значения).
+        Пример: если голосуешь за&nbsp;финалистку №1, отправь: <mark>СТУД 1</mark> (пробел обязателен, регистр букв не&nbsp;имеет значения).
       </p>
       <p>Голосование доступно для абонентов: Билайн, МТС, Мегафон, Tele2, Тинькофф, Мотив.</p>
       <p>
-        Стоимость <mark>SMS</mark> — 10&nbsp;рублей. Подтверждающее сообщение оператору — бесплатно.
+        Стоимость <mark>SMS</mark> — 11&nbsp;рублей. Подтверждающее сообщение оператору — бесплатно.
       </p>
       <p>Организатор голосования: <a href="https://mvote.ru" target="_blank">Mvote.ru</a></p>
     </section>
+    <header class="header">РЕЗУЛЬТАТЫ ОНЛАЙН-ГОЛОСОВАНИЯ</header>
     <MissCardsContainer show-votes></MissCardsContainer>
   </div>
 </template>
