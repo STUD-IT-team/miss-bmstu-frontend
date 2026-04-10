@@ -10,6 +10,7 @@
   background-image url('/res/images/miss-decorations/right-up.png'), url('/res/images/miss-decorations/left-down.png')
   background-position right top, left bottom
   background-repeat no-repeat, no-repeat
+  background-size 600px auto, 600px auto
 
   > *
     width 100%
