@@ -266,6 +266,7 @@ export const missList = [
 ];
 
 
+import ImagePartner0 from '#~/images/miss/missPartners/PartnerMura.svg';
 import ImagePartner1 from '#~/images/miss/missPartners/PartnerUMP.png';
 import ImagePartner2 from '#~/images/miss/missPartners/PartnerRB.png';
 import ImagePartner3 from '#~/images/miss/missPartners/PartnerFit.png';

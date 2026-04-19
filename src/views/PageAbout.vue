@@ -87,6 +87,10 @@
         margin-bottom 22px
         border-bottom 2px solid colorLinesBorders
         opacity 1
+        word-break break-word
+        @media ({mobile})
+          font-size 20px
+          padding 0 5px
       &:not(:first-child)
         margin-top 60px
       &.hidden
