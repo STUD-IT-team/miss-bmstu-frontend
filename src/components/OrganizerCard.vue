@@ -8,7 +8,7 @@
 .root-organizer-card
   border-radius borderRadiusM
   overflow hidden
-  background colorBgCards
+  background white
   border 2px solid colorLightBlocksBorders
   img.photo
     width 100%
@@ -43,7 +43,6 @@
 
       <a :href="`tel:${phone}`" class="contact">{{ phone }}</a>
       <a :href="`mailto:${mail}`" class="contact">{{ mail }}</a>
-      <a :href="`https://t.me/${telegram}`" class="contact">@{{ telegram }}</a>
       <div class="title">{{ title }}</div>
     </section>
   </div>
