@@ -41,16 +41,7 @@
     <header class="header">КОНТАКТЫ</header>
     <section class="contacts">
       <label>Адрес</label>
-      <a class="contact" href="https://yandex.ru/maps/-/CHF-Z-mO" target="_blank">Конгресс-центр, ауд. 425к (Бауманская улица, 57)</a>
-      
-      <label>Председатель Студенческого совета МГТУ им. Н.Э. Баумана (Георгий)</label>
-      <a class="contact" href="tel:+79854365891" target="_blank">+7 (985) 436-58-91</a>
-      
-      <label>Главный организатор мероприятия (Екатерина)</label>
-      <a class="contact" href="tel:+78005553535" target="_blank">+7 (800) 555-35-35</a>
-      
-      <label>Глава отдела по работе с партнёрами в Студенческом совете МГТУ им. Н.Э. Баумана (Динар)</label>
-      <a class="contact" href="tel:+78005553535" target="_blank">+7 (800) 555-35-35</a>
+      <a class="contact" href="https://yandex.ru/maps/-/CHF-Z-mO" target="_blank">Конгресс-центр, ауд. 425к (Бригадирский переулок, 13)</a>
       
       <label>Канал в мессенджере MAX</label>
       <a class="contact" href="https://max.ru/id7701002520_gos47" target="_blank">MAX: id7701002520_gos47</a>
