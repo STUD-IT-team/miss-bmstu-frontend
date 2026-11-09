@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"/>
+    <meta name="theme-color" content="#1A1A1A"/>
+    <link rel="icon" href="/res/favicon.svg"/>
+    <title>МиСС Очарование</title>
+
+    <style>
+        @font-face {
+            font-family: ALS-Sector;
+            font-style: normal;
+            font-stretch: normal;
+            font-display: swap;
+            src: local(ALS-Sector-Bold),
+                 local(ALS Sector Bold),
+                 url(/res/fonts/ALS_Sector/ALS_Sector_Bold.ttf) format("truetype"),
+                 url(/res/fonts/ALS_Sector/ALS_Sector_Bold.woff) format("woff");
+            font-weight: 700;
+        }
+        @font-face {
+            font-family: ALS-Sector;
+            font-style: normal;
+            font-stretch: normal;
+            font-display: swap;
+            src: local(ALS-Sector-Regular),
+                 local(ALS Sector Regular),
+                 url(/res/fonts/ALS_Sector/ALS_Sector_Regular.ttf) format("truetype"),
+                 url(/res/fonts/ALS_Sector/ALS_Sector_Regular.woff) format("woff");
+            font-weight: 500;
+        }
+
+        :root {
+            --color-palette-1: #EAB71A;
+            --color-palette-2: #DEAC15;
+            --color-palette-3: #B87E13;
+            --color-text-1: #FFFFFF;
+            --color-bg: #1A1A1A;
+            --border-radius-xl: 25px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html, body {
+            min-height: 100%;
+        }
+
+        body {
+            width: 100vw;
+            min-height: 100vh;
+            position: relative;
+            overflow-x: hidden;
+            background: var(--color-bg);
+            color: var(--color-text-1);
+            font-family: ALS-Sector, Roboto, monospace;
+            background-image: url('/res/images/miss-decorations/right-up.png'), url('/res/images/miss-decorations/left-down.png');
+            background-position: right top, left bottom;
+            background-repeat: no-repeat, no-repeat;
+            background-size: 600px auto, 600px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .card {
+            width: 100%;
+            max-width: 640px;
+            text-align: center;
+            padding: 45px 35px;
+            border: 2px solid var(--color-palette-1);
+            border-radius: var(--border-radius-xl);
+            background: rgba(0, 0, 0, 0.25);
+            backdrop-filter: blur(2px);
+        }
+
+        .logo {
+            width: 100%;
+            max-width: 320px;
+            margin-bottom: 30px;
+        }
+
+        .title {
+            font-weight: 700;
+            line-height: 1.3;
+            font-size: clamp(1.4rem, calc(1.6vw + 1.2rem), 2.2rem);
+            color: var(--color-palette-1);
+            margin-bottom: 25px;
+        }
+
+        .subtitle {
+            font-weight: 500;
+            font-size: clamp(1rem, calc(0.7vw + 0.7rem), 1.3rem);
+            margin-bottom: 20px;
+        }
+
+        .socials {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .social-link {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 24px;
+            min-height: 40px;
+            font-weight: 500;
+            font-size: clamp(1rem, calc(0.7vw + 0.7rem), 1.3rem);
+            border: 2px solid var(--color-palette-1);
+            border-radius: 10px;
+            transition: all 0.2s ease;
+        }
+
+        .social-link:hover {
+            background: var(--color-palette-1);
+            color: #000;
+        }
+
+        .social-link svg {
+            width: 22px;
+            height: 22px;
+            fill: currentColor;
+        }
+
+        .footer-note {
+            margin-top: 35px;
+            font-size: clamp(0.75rem, calc(0.3vw + 0.6rem), 0.9rem);
+            color: var(--color-palette-2);
+        }
+
+        @media (max-width: 700px) {
+            body {
+                background-size: 300px auto, 300px auto;
+            }
+            .card {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img class="logo" src="/res/images/miss/headerLogo.svg" alt="МиСС Очарование"/>
+        <div class="title">До встречи на проекте «МиСС Очарование» в 2027 году!</div>
+        <div class="subtitle">Следи за нами в социальных сетях:</div>
+        <div class="socials">
+            <a class="social-link" href="https://vk.com/miss_bmstu" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24"><path d="M13.95 20.3c.6 0 .85-.4.84-.9-.03-1.5.57-2.03 1.24-2.03.67 0 1.1.4 1.84 1.46.74 1.08 1.08 1.47 1.88 1.47h2.46c.53 0 .83-.25.8-.72-.04-.68-.75-1.74-1.72-2.98-.85-1.1-1.21-1.46-.78-1.98.76-.9 1.57-2.08 1.84-2.6.4-.78.17-1.3-.69-1.3h-2.46c-.63 0-.94.32-1.13.72 0 0-1.07 2.37-2.33 3.43-.43.36-.63.26-.78-.15-.19-.57-.14-2.03-.14-2.9 0-.6-.17-.87-.68-.95h-2.5c-.37 0-.6.25-.6.52 0 .55.82.68.9 2.24.13 2.26-.1 2.73-.4 2.73-.53 0-1.44-1.1-2.9-3.78-.27-.53-.55-.72-1.14-.72H4.25c-.53 0-.68.28-.68.6 0 .5.46 3.06 2.98 6.17C7.9 19.03 10.1 20.3 12 20.3h1.95z"/></svg>
+                VK
+            </a>
+            <a class="social-link" href="https://t.me/miss_bmstu" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24"><path d="M21.6 3.3L2.9 10.9c-1.1.5-1.1 1.2-.2 1.5l4.7 1.5 1.8 5.8c.2.6.4.9.9.9.3 0 .5-.1.7-.4l2.4-2.3 4.7 3.5c.9.5 1.5.3 1.7-.8l3.1-14.5c.3-1.3-.4-1.9-1.6-1.4zM8.5 14l9.2-5.8c.4-.3.8-.1.5.2L10.5 15.6l-.3 3.3-1.7-4.9z"/></svg>
+                Telegram
+            </a>
+            <a class="social-link" href="https://max.ru/id7701002520_gos47" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24"><path d="M3 12c0-4.97 4.03-9 9-9s9 4.03 9 9-4.03 9-9 9c-1.6 0-3.1-.42-4.4-1.15L3 21l1.2-3.5C3.44 16.1 3 14.1 3 12zm5.5-1.5l2.1 2.6c.2.25.5.25.7 0l4.2-5.1-3.8 2.1-1.4-1.7c-.2-.25-.5-.25-.7 0l-1.1 1.1c-.2.25-.2.6 0 1z"/></svg>
+                MAX
+            </a>
+        </div>
+        <div class="footer-note">Студенческий совет МГТУ&nbsp;им.&nbsp;Н.Э.&nbsp;Баумана</div>
+    </div>
+</body>
+</html>
